@@ -170,7 +170,7 @@ hi markdownH4 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=
 hi markdownH5 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
 hi markdownH6 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
 hi markdownBold ctermfg=NONE ctermbg=NONE cterm=bold guifg=#FF615A guibg=NONE gui=bold
-hi markdownItalic ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=italic
+hi markdownItalic ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=italic
 hi markdownCodeDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
 hi markdownCodeBlock ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
 hi markdownCode ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
