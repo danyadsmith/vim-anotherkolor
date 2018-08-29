@@ -118,7 +118,7 @@ hi htmlTitle ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlH1 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#ffffff guibg=NONE gui=bold
 hi htmlLink ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlComment ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
-hi htmlScriptTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#47A628
+hi htmlScriptTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
 
 hi jsFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi jsFuncName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
