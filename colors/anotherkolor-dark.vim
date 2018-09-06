@@ -224,4 +224,7 @@ hi csIsInterpolationFormatDel ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47
 hi csIsInterpolationAlignDel ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
 hi csBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
 
+hi foldBraces ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
+hi typescriptType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
+
 
