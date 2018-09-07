@@ -231,4 +231,5 @@ hi typescriptStringS ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NON
 hi typescriptStringD ctermfg=153 ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
 
 hi jsonKeyword ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
+hi jsonString ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
 
