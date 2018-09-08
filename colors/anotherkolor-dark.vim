@@ -194,7 +194,7 @@ hi vimHiTerm ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=N
 hi csClassType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi csClass ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi csEnclosed ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi csModifier ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#8de7f9 guibg=NONE gui=NONE
+hi csModifier ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi csType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi csUnspecifiedStatement ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi csEndColon ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
