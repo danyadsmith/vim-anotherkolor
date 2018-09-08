@@ -194,7 +194,7 @@ hi vimHiTerm ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=N
 hi csClassType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi csClass ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi csEnclosed ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi csModifier ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D0B7ED guibg=NONE gui=NONE
+hi csModifier ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#4d52ff guibg=NONE gui=NONE
 hi csType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi csUnspecifiedStatement ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi csEndColon ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
@@ -223,6 +223,7 @@ hi csIsInterpolationAlign ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 gui
 hi csIsInterpolationFormatDel ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
 hi csIsInterpolationAlignDel ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
 hi csBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
+hi csIface ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 
 hi foldBraces ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
 hi typescriptType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
