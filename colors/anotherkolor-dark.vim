@@ -87,9 +87,9 @@ hi rubyConstant ctermfg=169 ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui
 hi rubyStringDelimiter ctermfg=187 ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi rubyString ctermfg=187 ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
 hi rubyBlockParameter ctermfg=70 ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
-hi rubyInstanceVariable ctermfg=169 ctermbg=NONE cterm=italic guifg=#e642a2 guibg=NONE gui=italic
+hi rubyInstanceVariable ctermfg=169 ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui=NONE
 hi rubyInclude ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi rubyGlobalVariable ctermfg=116 ctermbg=NONE cterm=italic guifg=#90c9d3 guibg=NONE gui=italic
+hi rubyGlobalVariable ctermfg=116 ctermbg=NONE cterm=NONE guifg=#90c9d3 guibg=NONE gui=NONE
 hi rubyRegexp ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dad6c3 guibg=NONE gui=NONE
 hi rubyRegexpDelimiter ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dad6c3 guibg=NONE gui=NONE
 hi rubyEscape ctermfg=15 ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
@@ -97,7 +97,7 @@ hi rubyControl ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui
 hi rubyClassVariable ctermfg=70 ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
 hi rubyOperator ctermfg=15 ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
 hi rubyException ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi rubyPseudoVariable ctermfg=169 ctermbg=NONE cterm=italic guifg=#e642a2 guibg=NONE gui=italic
+hi rubyPseudoVariable ctermfg=169 ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui=NONE
 hi rubyRailsUserClass ctermfg=169 ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui=NONE
 hi rubyRailsARAssociationMethod ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi rubyRailsARMethod ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -142,8 +142,8 @@ hi javaScriptRailsFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg
 hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
 hi yamlKey ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi yamlAnchor ctermfg=116 ctermbg=NONE cterm=italic guifg=#90c9d3 guibg=NONE gui=italic
-hi yamlAlias ctermfg=116 ctermbg=NONE cterm=italic guifg=#90c9d3 guibg=NONE gui=italic
+hi yamlAnchor ctermfg=116 ctermbg=NONE cterm=NONE guifg=#90c9d3 guibg=NONE gui=NONE
+hi yamlAlias ctermfg=116 ctermbg=NONE cterm=NONE guifg=#90c9d3 guibg=NONE gui=NONE
 hi yamlDocumentHeader ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dad6c3 guibg=NONE gui=NONE
 
 hi cssURL ctermfg=70 ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
@@ -170,7 +170,7 @@ hi markdownH4 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=
 hi markdownH5 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
 hi markdownH6 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
 hi markdownBold ctermfg=NONE ctermbg=NONE cterm=bold guifg=#FF615A guibg=NONE gui=bold
-hi markdownItalic ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=italic
+hi markdownItalic ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
 hi markdownCodeDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
 hi markdownCodeBlock ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
 hi markdownCode ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
