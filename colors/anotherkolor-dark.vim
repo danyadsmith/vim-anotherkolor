@@ -77,6 +77,7 @@ hi Field ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui=NONE
 hi Method ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
 hi Property ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
 
+" Ruby
 hi rubyClass ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi rubyFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi rubyMethodBlock ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
@@ -107,6 +108,7 @@ hi erubyDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui
 hi erubyComment ctermfg=237 ctermbg=NONE cterm=NONE guifg=#3d3d3d guibg=NONE gui=NONE
 hi erubyRailsMethod ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
+" HTML
 hi htmlTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
 hi htmlEndTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
 hi htmlTagName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
@@ -120,6 +122,7 @@ hi htmlLink ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlComment ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
 hi htmlScriptTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
 
+" JavaScript
 hi jsFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi jsFuncName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi jsFuncArgs ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFAF47 guibg=NONE gui=NONE
@@ -141,11 +144,13 @@ hi javaScriptFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=N
 hi javaScriptRailsFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
+" YAML
 hi yamlKey ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlAnchor ctermfg=116 ctermbg=NONE cterm=NONE guifg=#90c9d3 guibg=NONE gui=NONE
 hi yamlAlias ctermfg=116 ctermbg=NONE cterm=NONE guifg=#90c9d3 guibg=NONE gui=NONE
 hi yamlDocumentHeader ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dad6c3 guibg=NONE gui=NONE
 
+" CSS 
 hi cssURL ctermfg=70 ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
 hi cssFunctionName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi cssColor ctermfg=15 ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
@@ -157,11 +162,13 @@ hi cssValueLength ctermfg=230 ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE g
 hi cssCommonAttr ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
+" GitGutter
 hi GitGutterAdd ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#47a628 guibg=NONE gui=NONE
 hi GitGutterDelete ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
 hi GitGutterChange ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31ade8 guibg=NONE gui=NONE
 hi GitGutterChangeDelete ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#c02b83 guibg=NONE gui=NONE
 
+" Markdown
 hi markdownHeadingDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
 hi markdownH1 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#ffffff guibg=NONE gui=bold
 hi markdownH2 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
@@ -184,13 +191,16 @@ hi mmdTable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NO
 hi mmdTableHeader ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
 hi mmdTableDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
 
+" XML
 hi xmlTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi xmlTagName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi xmlEndTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 
+" VimScript
 hi vimHiGroup ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
 hi vimHiTerm ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
 
+" C#
 hi csClassType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi csClass ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi csEnclosed ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
@@ -225,12 +235,16 @@ hi csIsInterpolationAlignDel ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 
 hi csBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
 hi csIface ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 
+" TypeScript
 hi foldBraces ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
 hi typescriptType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
 hi typescriptDecorators ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi typescriptStringS ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
 hi typescriptStringD ctermfg=153 ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
 
+" JSON
 hi jsonKeyword ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi jsonString ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
 
+" Bash/Zsh/Shell
+hi shEcho ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
