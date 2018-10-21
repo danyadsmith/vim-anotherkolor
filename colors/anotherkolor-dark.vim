@@ -241,6 +241,7 @@ hi typescriptType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE 
 hi typescriptDecorators ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
 hi typescriptStringS ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
 hi typescriptStringD ctermfg=153 ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
+hi typescriptNull ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF615A guibg=NONE gui=NONE
 
 " JSON
 hi jsonKeyword ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
