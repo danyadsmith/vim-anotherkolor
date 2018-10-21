@@ -111,6 +111,7 @@ hi erubyRailsMethod ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE g
 " HTML
 hi htmlTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
 hi htmlEndTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
+hi htmlTagN ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
 hi htmlTagName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
 hi htmlArg ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 Guibg=NONE gui=NONE
 hi htmlSpecialChar ctermfg=228 ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
