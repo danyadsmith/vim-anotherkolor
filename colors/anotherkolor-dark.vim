@@ -27,20 +27,20 @@ hi Search ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#222222 guibg=#fff654 gui=N
 hi Directory ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Folded ctermfg=237 ctermbg=235 cterm=NONE guifg=#3d3d3d guibg=#222222 gui=NONE
 
-hi Normal ctermfg=231 ctermbg=233 cterm=NONE guifg=#eeeeee guibg=#121212 gui=NONE
-hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#eeeeee guibg=#45820c gui=bold
-hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8a0707 guibg=NONE gui=NONE
-hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#eeeeee guibg=#213655 gui=NONE
-hi DiffText ctermfg=231 ctermbg=24 cterm=bold guifg=#eeeeee guibg=#204a87 gui=bold
-hi ErrorMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi Normal ctermfg=231 ctermbg=233 cterm=NONE guifg=#666666 guibg=NONE gui=NONE
+hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#00cc00 guibg=NONE gui=bold
+hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
+hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#ff8000 guibg=NONE gui=NONE
+hi DiffText ctermfg=231 ctermbg=24 cterm=bold guifg=#31aed8 guibg=NONE gui=bold
+hi ErrorMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
+hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffc000 guibg=NONE gui=NONE
 hi NonText ctermfg=239 ctermbg=236 cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
 hi SpecialKey ctermfg=239 ctermbg=237 cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
 hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#eeeeee guibg=NONE gui=bold
 
 hi Boolean ctermfg=96 ctermbg=NONE cterm=NONE guifg=#94539a guibg=NONE gui=NONE
 hi Character ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Comment ctermfg=237 ctermbg=NONE cterm=NONE guifg=#3d3d3d guibg=NONE gui=NONE
+hi Comment ctermfg=237 ctermbg=NONE cterm=NONE guifg=#2a2a2a guibg=NONE gui=NONE
 hi Conditional ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Define ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
@@ -56,10 +56,10 @@ hi Special ctermfg=231 ctermbg=NONE cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
 hi Statement ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi StorageClass ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi String ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dad6c3 guibg=NONE gui=NONE
-hi Tag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Todo ctermfg=237 ctermbg=NONE cterm=inverse,bold guifg=#3d3d3d guibg=NONE gui=inverse,bold
-hi Type ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+hi Tag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#3333ff guibg=NONE gui=NONE
+hi Todo ctermfg=237 ctermbg=NONE cterm=inverse,bold guifg=#aa66cc guibg=NONE gui=inverse,bold
+hi Type ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#99eb00 guibg=NONE gui=NONE
+hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=#ffc20a guibg=NONE gui=underline
 
 hi Class ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi DefinedName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -76,6 +76,19 @@ hi LocalVariable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=
 hi Field ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui=NONE
 hi Method ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
 hi Property ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
+
+hi Red ctermfg=none ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
+hi Vermilion ctermfg=none ctermbg=NONE cterm=NONE guifg=#ff4000 guibg=NONE gui=NONE
+hi Orange ctermfg=none ctermbg=NONE cterm=NONE guifg=#ff8000 guibg=NONE gui=NONE
+hi Amber ctermfg=none ctermbg=NONE cterm=NONE guifg=#ffc000 guibg=NONE gui=NONE
+hi Yellow ctermfg=none ctermbg=NONE cterm=NONE guifg=#feff00 guibg=NONE gui=NONE
+hi Chartreuse ctermfg=none ctermbg=NONE cterm=NONE guifg=#99eb00 guibg=NONE gui=NONE
+hi Green ctermfg=none ctermbg=NONE cterm=NONE guifg=#00cc00 guibg=NONE gui=NONE
+hi Viridian ctermfg=none ctermbg=NONE cterm=NONE guifg=#00ad91 guibg=NONE gui=NONE
+hi Blue ctermfg=none ctermbg=NONE cterm=NONE guifg=#3333ff guibg=NONE gui=NONE
+hi Violet ctermfg=none ctermbg=NONE cterm=NONE guifg=#5533e6 guibg=NONE gui=NONE
+hi Purple ctermfg=none ctermbg=NONE cterm=NONE guifg=#aa66cc guibg=NONE gui=NONE
+hi Magenta ctermfg=none ctermbg=NONE cterm=NONE guifg=#ff0080 guibg=NONE gui=NONE
 
 " Ruby
 hi rubyClass ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
@@ -177,7 +190,7 @@ hi markdownH3 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=
 hi markdownH4 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
 hi markdownH5 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
 hi markdownH6 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
-hi markdownBold ctermfg=NONE ctermbg=NONE cterm=bold guifg=#FF615A guibg=NONE gui=bold
+hi markdownBold ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
 hi markdownItalic ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
 hi markdownCodeDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
 hi markdownCodeBlock ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
@@ -186,8 +199,8 @@ hi markdownLinkText ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NON
 hi markdownLinkTextDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi markdownLink ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
 hi markdownUrl ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi markdownListMarker ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#C02B83 guibg=NONE gui=NONE
-hi markdownBlockquote ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#7801FF guibg=NONE gui=NONE
+hi markdownListMarker ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
+hi markdownBlockquote ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi mmdTable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
 hi mmdTableHeader ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
 hi mmdTableDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
