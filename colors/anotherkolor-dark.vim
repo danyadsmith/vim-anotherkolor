@@ -27,7 +27,7 @@ hi Search ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#222222 guibg=#fff654 gui=N
 hi Directory ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Folded ctermfg=237 ctermbg=235 cterm=NONE guifg=#3d3d3d guibg=#222222 gui=NONE
 
-hi Normal ctermfg=231 ctermbg=233 cterm=NONE guifg=#eeeeee guibg=#222222 gui=NONE
+hi Normal ctermfg=231 ctermbg=233 cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
 hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#00cc00 guibg=NONE gui=bold
 hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
 hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#ff8000 guibg=NONE gui=NONE
