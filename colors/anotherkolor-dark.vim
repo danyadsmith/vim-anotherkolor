@@ -10,12 +10,13 @@ endif
 
 let g:colors_name = "anotherkolor-dark"
 
-hi Cursor ctermfg=235 ctermbg=168 cterm=NONE guifg=#ffffff guibg=#ff5faf gui=NONE
-hi Visual ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3c3c gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#363636 gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#363636 gui=NONE
-hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#363636 gui=NONE
-hi LineNr ctermfg=245 ctermbg=237 cterm=NONE guifg=#888888 guibg=#363636 gui=NONE
+hi Cursor ctermfg=000 ctermbg=190 cterm=NONE guifg=#222222 guibg=#AFDF00 gui=NONE
+hi Visual ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#222222 gui=NONE
+hi CursorLineNr ctermfg=NONE ctermbg=237 cterm=NONE guifg=#222222 guibg=#ff87ff gui=NONE
+hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
+hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
+hi LineNr ctermfg=245 ctermbg=237 cterm=NONE guifg=#888888 guibg=#ff87af gui=NONE
 hi VertSplit ctermfg=240 ctermbg=240 cterm=NONE guifg=#5d5d5d guibg=#5d5d5d gui=NONE
 hi MatchParen ctermfg=NONE ctermbg=NONE cterm=underline guifg=#31aed8 guibg=NONE gui=underline
 hi StatusLine ctermfg=231 ctermbg=240 cterm=bold guifg=#eeeeee guibg=#5d5d5d gui=bold
@@ -25,13 +26,13 @@ hi PmenuSel ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3c3c gui=NON
 hi IncSearch ctermfg=235 ctermbg=187 cterm=NONE guifg=#222222 guibg=#dad6c3 gui=NONE
 hi Search ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#222222 guibg=#fff654 gui=NONE
 hi Directory ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Folded ctermfg=237 ctermbg=235 cterm=NONE guifg=#3d3d3d guibg=#222222 gui=NONE
+hi Folded ctermfg=237 ctermbg=235 cterm=NONE guifg=#3d3d3d guibg=#444444 gui=NONE
 
-hi Normal ctermfg=231 ctermbg=233 cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
-hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#00cc00 guibg=NONE gui=bold
+hi Normal ctermfg=253 ctermbg=234 cterm=NONE guifg=#dadada guibg=#1d1d1d gui=NONE
+hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#00cc00 guibg=NONE gui=NONE
 hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
 hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#ff8000 guibg=NONE gui=NONE
-hi DiffText ctermfg=231 ctermbg=24 cterm=bold guifg=#31aed8 guibg=NONE gui=bold
+hi DiffText ctermfg=231 ctermbg=24 cterm=bold guifg=#31aed8 guibg=NONE gui=NONE
 hi ErrorMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
 hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffc000 guibg=NONE gui=NONE
 hi NonText ctermfg=239 ctermbg=236 cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
@@ -40,7 +41,7 @@ hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#eeeeee guibg=NONE gui=bold
 
 hi Boolean ctermfg=96 ctermbg=NONE cterm=NONE guifg=#94539a guibg=NONE gui=NONE
 hi Character ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Comment ctermfg=237 ctermbg=NONE cterm=NONE guifg=#2a2a2a guibg=NONE gui=NONE
+hi Comment ctermfg=235 ctermbg=NONE cterm=NONE guifg=#262626 guibg=NONE gui=NONE
 hi Conditional ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Define ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
