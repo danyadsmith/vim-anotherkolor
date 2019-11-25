@@ -115,6 +115,7 @@ hi SearchHighlight  ctermfg=236   ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#
 hi DarkNormal       ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1a1a1a gui=NONE 
 hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#DAD6C3 gui=NONE 
 
+hi Normal           ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1d1d1d gui=NONE
 
 hi! link Cursor                         CodFg
 hi! link Visual                         MutedBg
@@ -139,7 +140,6 @@ hi! link Search                         SearchHighlight
 hi! link Directory                      NoFg
 hi! link Folded                         MutedHighlight
 
-hi! link Normal                         DarkNormal
 hi! link DiffAdd                        GreenFg
 hi! link DiffDelete                     RedFg
 hi! link DiffChange                     OrangeFg

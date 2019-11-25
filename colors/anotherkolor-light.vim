@@ -112,9 +112,10 @@ hi NoBg           ctermbg=NONE guibg=NONE
 
 hi MutedHighlight   ctermfg=NONE ctermbg=236  cterm=NONE guifg=NONE    guibg=#303030 gui=NONE
 hi SearchHighlight  ctermfg=236  ctermbg=NONE cterm=NONE guifg=#222222 guibg=#FFF654 gui=NONE
-hi DarkNormal       ctermfg=253  ctermbg=234  cterm=NONE guifg=#dadada guibg=#1a1a1a gui=NONE 
-hi LightNormal      ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#222222 guibg=#DAD6C3 gui=NONE 
+hi DarkNormal       ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1a1a1a gui=NONE 
+hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#DAD6C3 gui=NONE 
 
+hi Normal           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#DAD6C3 gui=NONE 
 
 hi! link Cursor                         CodFg
 hi! link Visual                         MutedBg
