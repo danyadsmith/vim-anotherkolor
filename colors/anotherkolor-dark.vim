@@ -10,280 +10,383 @@ endif
 
 let g:colors_name = "anotherkolor-dark"
 
-hi Cursor ctermfg=000 ctermbg=190 cterm=NONE guifg=#222222 guibg=#AFDF00 gui=NONE
-hi Visual ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#222222 gui=NONE
-hi CursorLineNr ctermfg=NONE ctermbg=237 cterm=NONE guifg=#222222 guibg=#ff87ff gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
-hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
-hi LineNr ctermfg=245 ctermbg=237 cterm=NONE guifg=#888888 guibg=#ff87af gui=NONE
-hi VertSplit ctermfg=240 ctermbg=240 cterm=NONE guifg=#5d5d5d guibg=#5d5d5d gui=NONE
-hi MatchParen ctermfg=NONE ctermbg=NONE cterm=underline guifg=#31aed8 guibg=NONE gui=underline
-hi StatusLine ctermfg=231 ctermbg=240 cterm=bold guifg=#eeeeee guibg=#5d5d5d gui=bold
-hi StatusLineNC ctermfg=231 ctermbg=240 cterm=NONE guifg=#eeeeee guibg=#5d5d5d gui=NONE
-hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi PmenuSel ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3c3c gui=NONE
-hi IncSearch ctermfg=235 ctermbg=187 cterm=NONE guifg=#222222 guibg=#dad6c3 gui=NONE
-hi Search ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#222222 guibg=#fff654 gui=NONE
-hi Directory ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Folded ctermfg=237 ctermbg=235 cterm=NONE guifg=#3d3d3d guibg=#444444 gui=NONE
 
-hi Normal ctermfg=253 ctermbg=234 cterm=NONE guifg=#dadada guibg=#1d1d1d gui=NONE
-hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#00cc00 guibg=NONE gui=NONE
-hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
-hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#ff8000 guibg=NONE gui=NONE
-hi DiffText ctermfg=231 ctermbg=24 cterm=bold guifg=#31aed8 guibg=NONE gui=NONE
-hi ErrorMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
-hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffc000 guibg=NONE gui=NONE
-hi NonText ctermfg=239 ctermbg=236 cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
-hi SpecialKey ctermfg=239 ctermbg=237 cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
-hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#eeeeee guibg=NONE gui=bold
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Foreground Colors
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+hi RedFg          ctermfg=NONE guifg=#ff0000 
+hi VermilionFg    ctermfg=NONE guifg=#ff4000 
+hi OrangeFg       ctermfg=NONE guifg=#ff8000 
+hi AmberFg        ctermfg=NONE guifg=#ffc000 
+hi YellowFg       ctermfg=NONE guifg=#ffff00 
+hi ChartreuseFg   ctermfg=NONE guifg=#99eb00 
+hi GreenFg        ctermfg=NONE guifg=#00cc00 
+hi ViridianFg     ctermfg=NONE guifg=#00ad91 
+hi BlueFg         ctermfg=NONE guifg=#3333ff 
+hi VioletFg       ctermfg=NONE guifg=#5533e6 
+hi PurpleFg       ctermfg=NONE guifg=#aa66cc 
+hi MagentaFg      ctermfg=NONE guifg=#ff0080 
 
-hi Boolean ctermfg=96 ctermbg=NONE cterm=NONE guifg=#94539a guibg=NONE gui=NONE
-hi Character ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Comment ctermfg=235 ctermbg=NONE cterm=NONE guifg=#262626 guibg=NONE gui=NONE
-hi Conditional ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Define ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi Float ctermfg=230 ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
-hi Function ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Identifier ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi Keyword ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi Label ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dad6c3 guibg=NONE gui=NONE
-hi Number ctermfg=230 ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
-hi Operator ctermfg=15 ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi PreProc ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi Special ctermfg=231 ctermbg=NONE cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
-hi Statement ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi StorageClass ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi String ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dad6c3 guibg=NONE gui=NONE
-hi Tag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#3333ff guibg=NONE gui=NONE
-hi Todo ctermfg=237 ctermbg=NONE cterm=inverse,bold guifg=#aa66cc guibg=NONE gui=inverse,bold
-hi Type ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#99eb00 guibg=NONE gui=NONE
-hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=#ffc20a guibg=NONE gui=underline
+hi PersimmonFg    ctermfg=NONE guifg=#FF615A 
+hi PaleOrangeFg   ctermfg=NONE guifg=#ffaf47 
+hi GorseFg        ctermfg=NONE guifg=#FFF654
+hi HoneysuckleFg  ctermfg=NONE guifg=#f9fb8c 
+hi MoonGlowFg     ctermfg=NONE guifg=#FEFED0 
+hi OlivineFg      ctermfg=NONE guifg=#94c470 
+hi GreenAppleFg   ctermfg=NONE guifg=#31AD38
+hi ForestGreenFg  ctermfg=NONE guifg=#47a628 
+hi TurquoiseFg    ctermfg=NONE guifg=#43d3c1 
+hi SailFg         ctermfg=NONE guifg=#A7E4F4 
+hi BlizzardBlueFg ctermfg=NONE guifg=#b4e3f2 
+hi ScooterFg      ctermfg=NONE guifg=#31aed8 
+hi LavenderFg     ctermfg=NONE guifg=#D6B5F1 
+hi DeepPurpleFg   ctermfg=NONE guifg=#94539a 
+hi CeriseFg       ctermfg=NONE guifg=#E642A2 
+hi RedVioletFg    ctermfg=NONE guifg=#C02B83
+hi LightOrchidFg  ctermfg=NONE guifg=#edb4e4 
+hi ChantillyFg    ctermfg=NONE guifg=#F7AFE7 
+hi PinkSalmonFg   ctermfg=NONE guifg=#ff87af 
+hi BrownFg        ctermfg=NONE guifg=#5c3b0c 
+hi TanFg          ctermfg=NONE guifg=#DAD5bf 
+hi SisalFg        ctermfg=NONE guifg=#DAD6C3
+hi EcruWhiteFg    ctermfg=NONE guifg=#F5F5E5
 
-hi Class ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi DefinedName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Enumerator ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Function ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi EnumerationName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Member ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Structure ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Type ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Union ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi GlobalConstant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi GlobalVariable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi LocalVariable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Field ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui=NONE
-hi Method ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
-hi Property ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
+hi WhiteFg        ctermfg=231  guifg=#ffffff
+hi AlabasterFg    ctermfg=255  guifg=#f8f8f8
+hi GalleryFg      ctermfg=255  guifg=#eeeeee 
+hi AltoFg         ctermfg=253  guifg=#DDDDDD
+hi SilverFg       ctermfg=251  guifg=#CCCCCC
+hi DustyFg        ctermfg=245  guifg=#9a9a9a
+hi DoveFg         ctermfg=242  guifg=#666666
+hi TundoraLightFg ctermfg=240  guifg=#4A4A4A
+hi TundoraFg      ctermfg=240  guifg=#444444
+hi MutedFg        ctermfg=239  guifg=#3a3a3a 
+hi MineShaftLtFg  ctermfg=238  guifg=#3d3d3d
+hi MineShaftFg    ctermfg=238  guifg=#262626 
+hi CodFg          ctermfg=236  guifg=#222222
+hi CharcoalFg     ctermfg=233  guifg=#141414
+hi GrayFg         ctermfg=NONE guifg=#888888
+hi BlackFg        ctermfg=000  guifg=#000000
+hi NoFg           ctermfg=NONE guifg=NONE    
 
-hi Red ctermfg=none ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
-hi Vermilion ctermfg=none ctermbg=NONE cterm=NONE guifg=#ff4000 guibg=NONE gui=NONE
-hi Orange ctermfg=none ctermbg=NONE cterm=NONE guifg=#ff8000 guibg=NONE gui=NONE
-hi Amber ctermfg=none ctermbg=NONE cterm=NONE guifg=#ffc000 guibg=NONE gui=NONE
-hi Yellow ctermfg=none ctermbg=NONE cterm=NONE guifg=#feff00 guibg=NONE gui=NONE
-hi Chartreuse ctermfg=none ctermbg=NONE cterm=NONE guifg=#99eb00 guibg=NONE gui=NONE
-hi Green ctermfg=none ctermbg=NONE cterm=NONE guifg=#00cc00 guibg=NONE gui=NONE
-hi Viridian ctermfg=none ctermbg=NONE cterm=NONE guifg=#00ad91 guibg=NONE gui=NONE
-hi Blue ctermfg=none ctermbg=NONE cterm=NONE guifg=#3333ff guibg=NONE gui=NONE
-hi Violet ctermfg=none ctermbg=NONE cterm=NONE guifg=#5533e6 guibg=NONE gui=NONE
-hi Purple ctermfg=none ctermbg=NONE cterm=NONE guifg=#aa66cc guibg=NONE gui=NONE
-hi Magenta ctermfg=none ctermbg=NONE cterm=NONE guifg=#ff0080 guibg=NONE gui=NONE
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Background Colors
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+hi RedBg          ctermbg=NONE guibg=#ff0000 
+hi VermilionBg    ctermbg=NONE guibg=#ff4000 
+hi OrangeBg       ctermbg=NONE guibg=#ff8000 
+hi AmberBg        ctermbg=NONE guibg=#ffc000 
+hi YellowBg       ctermbg=NONE guibg=#ffff00 
+hi ChartreuseBg   ctermbg=NONE guibg=#99eb00 
+hi GreenBg        ctermbg=NONE guibg=#00cc00 
+hi ViridianBg     ctermbg=NONE guibg=#00ad91 
+hi BlueBg         ctermbg=NONE guibg=#3333ff 
+hi VioletBg       ctermbg=NONE guibg=#5533e6 
+hi PurpleBg       ctermbg=NONE guibg=#aa66cc 
+hi MagentaBg      ctermbg=NONE guibg=#ff0080 
 
+hi GorseBg        ctermbg=NONE guibg=#FFF654
+hi MoonGlowBg     ctermbg=NONE guibg=#FEFED0 
+hi PampasBg       ctermbg=NONE guibg=#F0EEE5
+hi TanBg          ctermbg=NONE guibg=#DAD5bf 
+hi SisalBg        ctermbg=NONE guibg=#DAD6C3
+hi EcruWhiteBg    ctermbg=NONE guibg=#F5F5E5
+
+hi WhiteBg        ctermbg=231  guibg=#ffffff
+hi AlabasterBg    ctermbg=255  guibg=#f8f8f8
+hi GalleryBg      ctermbg=255  guibg=#eeeeee 
+hi AltoBg         ctermbg=253  guibg=#DDDDDD
+hi SilverBg       ctermbg=251  guibg=#CCCCCC
+hi DustyBg        ctermbg=245  guibg=#9a9a9a
+hi DoveBg         ctermbg=242  guibg=#666666
+hi ScorpionBg     ctermbg=241  guibg=#5d5d5d
+hi TundoraBg      ctermbg=240  guibg=#444444
+hi MutedBg        ctermbg=239  guibg=#3a3a3a 
+hi MineShaftBg    ctermbg=238  guibg=#262626 
+hi CodBg          ctermbg=236  guibg=#222222
+hi CharcoalBg     ctermbg=233  guibg=#141414
+hi CodGrayBg      ctermbg=234  guibg=#1d1d1d
+hi GrayBg         ctermbg=NONE guibg=#888888
+hi BlackBg        ctermbg=000  guibg=#000000
+hi NoBg           ctermbg=NONE guibg=NONE    
+
+hi MutedHighlight   ctermfg=NONE  ctermbg=236   cterm=NONE guifg=NONE    guibg=#303030 gui=NONE
+hi SearchHighlight  ctermfg=236   ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#FFF654 gui=NONE
+hi DarkNormal       ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1a1a1a gui=NONE 
+hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#DAD6C3 gui=NONE 
+
+
+hi! link Cursor                         CodFg
+hi! link Visual                         MutedBg
+hi! link CursorLine                     CodBg
+hi! link CursorLineNr                   CodFg
+hi! link CursorColumn                   MutedBg
+hi! link ColorColumn                    MutedBg
+hi! link LineNr                         GrayFg
+hi! link LineNr                         PinkSalmonFg
+hi! link VertSplit                      ScorpionBg
+hi! link VertSplit                      ScorpionFg
+hi! link MatchParen                     ScooterFg
+hi! link StatusLine                     GalleryFg 
+hi! link StatusLine                     ScorpionBg
+hi! link StatusLineNC                   GalleryFg 
+hi! link StatusLineNC                   ScorpionBg
+hi! link Pmenu                          NoFg
+hi! link PmenuSel                       MineShaftBg
+hi! link IncSearch                      CodFg
+hi! link IncSearch                      SisalBg
+hi! link Search                         SearchHighlight
+hi! link Directory                      NoFg
+hi! link Folded                         MutedHighlight
+
+hi! link Normal                         DarkNormal
+hi! link DiffAdd                        GreenFg
+hi! link DiffDelete                     RedFg
+hi! link DiffChange                     OrangeFg
+hi! link DiffText                       ScooterFg
+hi! link ErrorMsg                       RedFg
+hi! link WarningMsg                     AmberFg
+hi! link NonText                        MutedFg
+hi! link SpecialKey                     MutedFg
+hi! link Title                          GalleryFg
+
+hi! link Boolean                        DeepPurple 
+hi! link Character                      NoHighlight
+hi! link Comment                        Invisibles
+hi! link Conditional                    ScooterFg
+hi! link Constant                       NoHighlight
+hi! link Define                         ScooterFg
+hi! link Float                          PaleYellow
+hi! link Function                       NoHighlight
+hi! link Identifier                     ScooterFg
+hi! link Keyword                        ScooterFg
+hi! link Label                          TanFg
+hi! link Number                         PaleYellowFg
+hi! link Operator                       WhiteFg
+hi! link PreProc                        ScooterFg
+hi! link Special                        GalleryFg
+hi! link Statement                      ScooterFg
+hi! link StorageClass                   ScooterFg
+hi! link String                         TanFg
+hi! link Tag                            BlueFg
+hi! link Todo                           PurpleFg
+hi! link Type                           ChartreuseFg
+hi! link Underlined                     AmberFg
+
+hi! link Class                          NoFg
+hi! link DefinedName                    NoFg
+hi! link Enumerator                     NoFg
+hi! link Function                       NoFg
+hi! link EnumerationName                NoFg
+hi! link Member                         NoFg
+hi! link Structure                      NoFg
+hi! link Type                           NoFg
+hi! link Union                          NoFg
+hi! link GlobalConstant                 NoFg
+hi! link GlobalVariable                 NoFg
+hi! link LocalVariable                  NoFg
+hi! link Field                          CeriseFg
+hi! link Method                         ForestGreenFg
+hi! link Property                       BlizzardBlueFg
+"
 " Ruby
-hi rubyClass ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
-hi rubyFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
-hi rubyMethodBlock ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
-hi rubyInterpolationDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
-hi rubyKeywordAsMethod ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
-hi rubySymbol ctermfg=203 ctermbg=NONE cterm=NONE guifg=#f36465 guibg=NONE gui=NONE
-hi rubyConstant ctermfg=169 ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui=NONE
-hi rubyStringDelimiter ctermfg=187 ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
-hi rubyString ctermfg=187 ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
-hi rubyBlockParameter ctermfg=70 ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
-hi rubyInstanceVariable ctermfg=169 ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui=NONE
-hi rubyInclude ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi rubyGlobalVariable ctermfg=116 ctermbg=NONE cterm=NONE guifg=#90c9d3 guibg=NONE gui=NONE
-hi rubyRegexp ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dad6c3 guibg=NONE gui=NONE
-hi rubyRegexpDelimiter ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dad6c3 guibg=NONE gui=NONE
-hi rubyEscape ctermfg=15 ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi rubyControl ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi rubyClassVariable ctermfg=70 ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
-hi rubyOperator ctermfg=15 ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi rubyException ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi rubyPseudoVariable ctermfg=169 ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui=NONE
-hi rubyRailsUserClass ctermfg=169 ctermbg=NONE cterm=NONE guifg=#e642a2 guibg=NONE gui=NONE
-hi rubyRailsARAssociationMethod ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi rubyRailsARMethod ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi rubyRailsRenderMethod ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi rubyRailsMethod ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi erubyDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi erubyComment ctermfg=237 ctermbg=NONE cterm=NONE guifg=#3d3d3d guibg=NONE gui=NONE
-hi erubyRailsMethod ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi! link rubyClass                          HoneysuckleFg
+hi! link rubyFunction                         HoneysuckleFg
+hi! link rubyMethodBlock                      ScooterFg
+hi! link rubyInterpolationDelimiter           PaleOrangeFg
+hi! link rubyKeywordAsMethod                  PaleOrangeFg
+hi! link rubySymbol                           PersimmonFg
+hi! link rubyConstant                         CeriseFg
+hi! link rubyStringDelimiter                  HoneysuckleFg
+hi! link rubyString                           PaleYellow
+hi! link rubyBlockParameter                   ForestGreenFg
+hi! link rubyInstanceVariable                 CeriseFg
+hi! link rubyInclude                          ScooterFg
+hi! link rubyGlobalVariable                   BlizzardBlueFg
+hi! link rubyRegexp                           SisalFg
+hi! link rubyRegexpDelimiter                  SisalFg
+hi! link rubyEscape                           WhiteFg 
+hi! link rubyControl                          ScooterFg
+hi! link rubyClassVariable                    ForestGreenFg
+hi! link rubyOperator                         WhiteFg
+hi! link rubyException                        ScooterFg
+hi! link rubyPseudoVariable                   CeriseFg
+hi! link rubyRailsUserClass                   CeriseFg
+hi! link rubyRailsARAssociationMethod         NoFg
+hi! link rubyRailsARMethod                    NoFg
+hi! link rubyRailsRenderMethod                NoFg
+hi! link rubyRailsMethod                      NoFg
+hi! link erubyDelimiter                       NoFg
+hi! link erubyComment                         MineShaftLtFg
+hi! link erubyRailsMethod                     NoFg
 
 " HTML
-hi htmlTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
-hi htmlEndTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
-hi htmlTagN ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
-hi htmlTagName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
-hi htmlArg ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 Guibg=NONE gui=NONE
-hi htmlSpecialChar ctermfg=228 ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
-hi htmlString ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
-hi htmlSpecialTagName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#47a628 guibg=NONE gui=NONE
-hi htmlTitle ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi htmlH1 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#ffffff guibg=NONE gui=bold
-hi htmlLink ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi htmlComment ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
-hi htmlScriptTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#32b1db guibg=NONE gui=NONE
+hi! link htmlTag                              ScooterFg
+hi! link htmlEndTag                           ScooterFg
+hi! link htmlTagN                             ScooterFg
+hi! link htmlTagName                          ScooterFg
+hi! link htmlArg                              BlizzardBlueFg
+hi! link htmlSpecialChar                      HoneysuckleFg
+hi! link htmlString                           PaleYellow
+hi! link htmlSpecialTagName                   ForestGreenFg
+hi! link htmlTitle                            NoFg
+hi! link htmlH1                               WhiteFg
+hi! link htmlLink                             NoFg
+hi! link htmlComment                          MutedBg
+hi! link htmlScriptTag                        ScooterFg
 
 " JavaScript
-hi jsFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi jsFuncName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
-hi jsFuncArgs ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFAF47 guibg=NONE gui=NONE
-hi jsFuncCall ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#47A628 guibg=NONE gui=NONE
-hi jsString ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
-hi jsNull ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ff615a guibg=NONE gui=NONE
-hi jsUndefined ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ff615a guibg=NONE gui=NONE
-hi jsBrackets ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi jsObjectBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi jsObjectKey ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
-hi jsObjectValue ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
-hi jsParens ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#47A628 guibg=NONE gui=NONE
-hi jsParensIfElse ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi jsParenIfElse ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi jsParensRepeat ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi jsGlobalObjects ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#E642A2 guibg=NONE gui=NONE
-hi jsOperatorKeyword ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF615A guibg=NONE gui=NONE
-hi javaScriptFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi javaScriptRailsFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi! link jsFunction                     ScooterFg
+hi! link jsFuncName                     HoneysuckleFg
+hi! link jsFuncArgs                     PaleOrangeFg
+hi! link jsFuncCall                     ForestGreenFg
+hi! link jsString                       PaleYellow
+hi! link jsNull                         PersimmonFg
+hi! link jsUndefined                    PersimmonFg
+hi! link jsBrackets                     ScooterFg
+hi! link jsObjectBraces                 ScooterFg
+hi! link jsObjectKey                    BlizzardBlueFg
+hi! link jsObjectValue                  BlizzardBlueFg
+hi! link jsParens                       ForestGreenFg
+hi! link jsParensIfElse                 WhiteFg
+hi! link jsParenIfElse                  WhiteFg
+hi! link jsParensRepeat                 WhiteFg
+hi! link jsGlobalObjects                CeriseFg
+hi! link jsOperatorKeyword              PersimmonFg
+hi! link javaScriptFunction             ScooterFg
+hi! link javaScriptRailsFunction        NoFg
+hi! link javaScriptBraces               NoFg
 
 " YAML
-hi yamlKey ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi yamlAnchor ctermfg=116 ctermbg=NONE cterm=NONE guifg=#90c9d3 guibg=NONE gui=NONE
-hi yamlAlias ctermfg=116 ctermbg=NONE cterm=NONE guifg=#90c9d3 guibg=NONE gui=NONE
-hi yamlDocumentHeader ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dad6c3 guibg=NONE gui=NONE
+hi! link yamlKey                        NoFg
+hi! link yamlAnchor                     SailFg
+hi! link yamlAlias                      SailFg
+hi! link yamlDocumentHeader             TanFg
 
 " CSS 
-hi cssURL ctermfg=70 ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
-hi cssFunctionName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi cssColor ctermfg=15 ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi cssPseudoClassId ctermfg=215 ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
-hi cssIdentifier ctermfg=218 ctermbg=NONE cterm=NONE guifg=#E642A2 guibg=NONE gui=NONE
-hi cssProc ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
-hi cssClassName ctermfg=218 ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
-hi cssValueLength ctermfg=230 ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
-hi cssCommonAttr ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi! link cssURL                         ForestGreenFg
+hi! link cssFunctionName                NoFg
+hi! link cssColor                       WhiteFg
+hi! link cssPseudoClassId               PaleOrangeFg
+hi! link cssIdentifier                  CeriseFg
+hi! link cssProc                        BlizzardBlueFg
+hi! link cssClassName                   ChantillyFg
+hi! link cssValueLength                 PaleYellow
+hi! link cssCommonAttr                  ScooterFg
+hi! link cssBraces                      NoFg
 
 " GitGutter
-hi SignColumn ctermfg=NONE ctermbg=Black cterm=NONE guifg=#47a628 guibg=#222222 gui=NONE
-hi GitGutterAdd ctermfg=NONE ctermbg=Black cterm=NONE guifg=#47a628 guibg=#222222 gui=NONE
-hi GitGutterDelete ctermfg=NONE ctermbg=Black cterm=NONE guifg=#ff0000 guibg=#222222 gui=NONE
-hi GitGutterChange ctermfg=NONE ctermbg=Black cterm=NONE guifg=#31ad38 guibg=#222222 gui=NONE
-hi GitGutterChangeDelete ctermfg=NONE ctermbg=Black cterm=NONE guifg=#c02b83 guibg=#222222 gui=NONE
+hi! link SignColumn                     CodBg
+hi! link SignColumn                     ForestGreenFg 
+hi! link GitGutterAdd                   CodBg
+hi! link GitGutterAdd                   ForestGreenFg
+hi! link GitGutterDelete                CodBg
+hi! link GitGutterDelete                RedFg
+hi! link GitGutterChange                CodBg
+hi! link GitGutterChange                GreenAppleFg
+hi! link GitGutterChangeDelete          CodBg
+hi! link GitGutterChangeDelete          RedVioletFg
 
 " Markdown
-hi markdownHeadingDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
-hi markdownH1 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#ffffff guibg=NONE gui=bold
-hi markdownH2 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
-hi markdownH3 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
-hi markdownH4 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
-hi markdownH5 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
-hi markdownH6 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
-hi markdownBold ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
-hi markdownItalic ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#A7E4F4 guibg=NONE gui=NONE
-hi markdownCodeDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
-hi markdownCodeBlock ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
-hi markdownCode ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
-hi markdownLinkText ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
-hi markdownLinkTextDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi markdownLink ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
-hi markdownUrl ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi markdownListMarker ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi markdownBlockquote ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi mmdTable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
-hi mmdTableHeader ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
-hi mmdTableDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
+hi! link markdownHeadingDelimiter       MutedBg
+hi! link markdownH1                     WhiteFg
+hi! link markdownH2                     ScooterFg
+hi! link markdownH3                     ScooterFg
+hi! link markdownH4                     ScooterFg
+hi! link markdownH5                     ScooterFg
+hi! link markdownH6                     ScooterFg
+hi! link markdownBold                   ScooterFg
+hi! link markdownItalic                 BlizzardBlueFg
+hi! link markdownCodeDelimiter          OlivineFg
+hi! link markdownCodeBlock              OlivineFg
+hi! link markdownCode                   OlivineFg
+hi! link markdownLinkText               ChantillyFg
+hi! link markdownLinkTextDelimiter      NoFg
+hi! link markdownLink                   ChantillyFg
+hi! link markdownUrl                    NoFg
+hi! link markdownListMarker             ScooterFg
+hi! link markdownBlockquote             ScooterFg
+hi! link mmdTable                       PaleOrangeFg
+hi! link mmdTableHeader                 PaleOrangeFg
+hi! link mmdTableDelimiter              PaleOrangeFg
 
 " CriticMarkup
 "
-hi mdCriticAdd guifg=#47a628
-hi mdCriticAddition guifg=#47a628
-hi mdCriticAddStartMark guifg=#47a628
-hi mdCriticAddEndMark guifg=#47a628
-hi mdCriticDel guifg=#ff0000
-hi mdCriticDeletion guifg=#4a4a4a
-hi mdCriticDelStartMark guifg=#ff0000
-hi mdCriticDelEndMark guifg=#ff0000
-hi mdCriticSubRemove guifg=#4a4a4a
-hi mdCriticSubStartMark guifg=#ff8000
-hi mdCriticSubstitute guifg=#ff8000
-hi mdCriticSubTransMark guifg=#ff8000
-hi mdCriticSubEndMark guifg=#ff8000
-hi mdCriticComment guifg=#aa66cc
-hi mdCriticCommentStartMark guifg=#aa66cc
-hi mdCriticCommentEndMark guifg=#aa66cc
-hi mdCriticCom guifg=#aa66cc
-hi mdCriticHighlight guifg=#ffc20a
-hi mdCriticExtra guifg=#ffc20a
+hi! link mdCriticAdd                    ForestGreenFg
+hi! link mdCriticAddition               ForestGreenFg
+hi! link mdCriticAddStartMark           ForestGreenFg
+hi! link mdCriticAddEndMark             ForestGreenFg
+hi! link mdCriticDel                    RedFg
+hi! link mdCriticDeletion               TundoraLightFg
+hi! link mdCriticDelStartMark           RedFg 
+hi! link mdCriticDelEndMark             RedFg
+hi! link mdCriticSubRemove              TundoraLightFg
+hi! link mdCriticSubStartMark           OrangeFg
+hi! link mdCriticSubstitute             OrangeFg
+hi! link mdCriticSubTransMark           OrangeFg
+hi! link mdCriticSubEndMark             OrangeFg
+hi! link mdCriticComment                PurpleFg
+hi! link mdCriticCommentStartMark       PurpleFg
+hi! link mdCriticCommentEndMark         PurpleFg
+hi! link mdCriticCom                    PurpleFg
+hi! link mdCriticHighlight              AmberFg
+hi! link mdCriticExtra                  AmberFg
 "
 " XML
-hi xmlTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi xmlTagName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi xmlEndTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
+hi! link xmlTag                         ScooterFg
+hi! link xmlTagName                     ScooterFg
+hi! link xmlEndTag                      ScooterFg
 
 " VimScript
-hi vimHiGroup ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
-hi! link vimHiTerm            Magenta
+hi! link vimHiGroup                     BlizzardBlueFg
+hi! link vimHiTerm                      ChantillyFg 
 
 " C#
-hi csClassType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
-hi csClass ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
-hi csEnclosed ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi csModifier ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi csType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi csUnspecifiedStatement ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi csEndColon ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi csOpSymbols ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi csBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi csNew ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi csNewType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi csParens ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi csRepeat ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
-hi csConditional ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#43D3C1 guibg=NONE gui=NONE
-hi csQuote ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
-hi csString ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
-hi csLabel  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#43d3c1 guibg=NONE gui=NONE
-hi csComment  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#3d3d3d guibg=NONE gui=NONE
-hi csAttribute  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#4ea828 guibg=NONE gui=NONE
-hi csLinq  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
-hi csException ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#E642A2 guibg=NONE gui=NONE
-hi csConstant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
-hi csTodo ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF615A guibg=NONE gui=NONE
-hi csIsType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF615A guibg=NONE gui=NONE
-hi csIsInterpolation ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
-hi csIsInterpolatedString ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
-hi csEscapedInterpolation ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
-hi csIsInterpolationFormat ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
-hi csIsInterpolationAlign ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
-hi csIsInterpolationFormatDel ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
-hi csIsInterpolationAlignDel ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
-hi csBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
-hi csIface ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
+hi! link csClassType                    HoneysuckleFg
+hi! link csClass                        HoneysuckleFg
+hi! link csEnclosed                     WhiteFg
+hi! link csModifier                     ScooterFg
+hi! link csType                         ScooterFg
+hi! link csUnspecifiedStatement         ScooterFg
+hi! link csEndColon                     ScooterFg
+hi! link csOpSymbols                    WhiteFg
+hi! link csBraces                       NoFg
+hi! link csNew                          ScooterFg
+hi! link csNewType                      ScooterFg
+hi! link csParens                       WhiteFg
+hi! link csRepeat                       PaleOrangeFg
+hi! link csConditional                  TurquoiseFg
+hi! link csQuote                        HoneysuckleFg
+hi! link csString                       PaleYellow
+hi! link csLabel                        TurquoiseFg
+hi! link csComment                      MineShaftLtFg
+hi! link csAttribute                    ForestGreenFg
+hi! link csLinq                         ChantillyFg
+hi! link csException                    CeriseFg
+hi! link csConstant                     PaleYellow
+hi! link csTodo                         PersimmonFg
+hi! link csIsType                       PersimmonFg
+hi! link csIsInterpolation              PaleOrangeFg
+hi! link csIsInterpolatedString         PaleOrangeFg
+hi! link csEscapedInterpolation         PaleOrangeFg
+hi! link csIsInterpolationFormat        PaleOrangeFg
+hi! link csIsInterpolationAlign         PaleOrangeFg
+hi! link csIsInterpolationFormatDel     PaleOrangeFg
+hi! link csIsInterpolationAlignDel      PaleOrangeFg
+hi! link csBraces                       BlizzardBlueFg
+hi! link csIface                        HoneysuckleFg
 
 " TypeScript
-hi foldBraces ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
-hi typescriptType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffaf47 guibg=NONE gui=NONE
-hi typescriptDecorators ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
-hi typescriptStringS ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
-hi typescriptStringD ctermfg=153 ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
-hi typescriptNull ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF615A guibg=NONE gui=NONE
+hi! link foldBraces                     BlizzardBlueFg
+hi! link typescriptType                 PaleOrangeFg
+hi! link typescriptDecorators           HoneysuckleFg
+hi! link typescriptStringS              BlizzardBlueFg
+hi! link typescriptStringD              OlivineFg
+hi! link typescriptNull                 PersimmonFg
 
 " JSON
-hi jsonKeyword ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
-hi jsonString ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#fefed0 guibg=NONE gui=NONE
+hi! link jsonKeyword                    ScooterFg
+hi! link jsonString                     PaleYellow
 
 " Bash/Zsh/Shell
-hi shEcho ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
+hi! link shEcho                         BlizzardBlueFg
