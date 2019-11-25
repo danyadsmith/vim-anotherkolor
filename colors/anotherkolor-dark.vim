@@ -178,10 +178,11 @@ hi cssCommonAttr ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE g
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
 " GitGutter
-hi GitGutterAdd ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#47a628 guibg=NONE gui=NONE
-hi GitGutterDelete ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ff0000 guibg=NONE gui=NONE
-hi GitGutterChange ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31ade8 guibg=NONE gui=NONE
-hi GitGutterChangeDelete ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#c02b83 guibg=NONE gui=NONE
+hi SignColumn ctermfg=NONE ctermbg=Black cterm=NONE guifg=#47a628 guibg=#222222 gui=NONE
+hi GitGutterAdd ctermfg=NONE ctermbg=Black cterm=NONE guifg=#47a628 guibg=#222222 gui=NONE
+hi GitGutterDelete ctermfg=NONE ctermbg=Black cterm=NONE guifg=#ff0000 guibg=#222222 gui=NONE
+hi GitGutterChange ctermfg=NONE ctermbg=Black cterm=NONE guifg=#31ad38 guibg=#222222 gui=NONE
+hi GitGutterChangeDelete ctermfg=NONE ctermbg=Black cterm=NONE guifg=#c02b83 guibg=#222222 gui=NONE
 
 " Markdown
 hi markdownHeadingDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#3a3a3a guibg=NONE gui=NONE
@@ -192,7 +193,7 @@ hi markdownH4 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=
 hi markdownH5 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
 hi markdownH6 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
 hi markdownBold ctermfg=NONE ctermbg=NONE cterm=bold guifg=#31aed8 guibg=NONE gui=bold
-hi markdownItalic ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
+hi markdownItalic ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#A7E4F4 guibg=NONE gui=NONE
 hi markdownCodeDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
 hi markdownCodeBlock ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
 hi markdownCode ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#94c470 guibg=NONE gui=NONE
@@ -206,6 +207,28 @@ hi mmdTable ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NO
 hi mmdTableHeader ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
 hi mmdTableDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffad73 guibg=NONE gui=NONE
 
+" CriticMarkup
+"
+hi mdCriticAdd guifg=#47a628
+hi mdCriticAddition guifg=#47a628
+hi mdCriticAddStartMark guifg=#47a628
+hi mdCriticAddEndMark guifg=#47a628
+hi mdCriticDel guifg=#ff0000
+hi mdCriticDeletion guifg=#4a4a4a
+hi mdCriticDelStartMark guifg=#ff0000
+hi mdCriticDelEndMark guifg=#ff0000
+hi mdCriticSubRemove guifg=#4a4a4a
+hi mdCriticSubStartMark guifg=#ff8000
+hi mdCriticSubstitute guifg=#ff8000
+hi mdCriticSubTransMark guifg=#ff8000
+hi mdCriticSubEndMark guifg=#ff8000
+hi mdCriticComment guifg=#aa66cc
+hi mdCriticCommentStartMark guifg=#aa66cc
+hi mdCriticCommentEndMark guifg=#aa66cc
+hi mdCriticCom guifg=#aa66cc
+hi mdCriticHighlight guifg=#ffc20a
+hi mdCriticExtra guifg=#ffc20a
+"
 " XML
 hi xmlTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
 hi xmlTagName ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=NONE
@@ -213,7 +236,7 @@ hi xmlEndTag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#31aed8 guibg=NONE gui=N
 
 " VimScript
 hi vimHiGroup ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#edb4e4 guibg=NONE gui=NONE
-hi vimHiTerm ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#b4e3f2 guibg=NONE gui=NONE
+hi! link vimHiTerm            Magenta
 
 " C#
 hi csClassType ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f9fb8c guibg=NONE gui=NONE
