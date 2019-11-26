@@ -1,5 +1,12 @@
-" Vim color file
-" Converted from Textmate theme Another Kolor (Dark) using Coloration v0.4.0 (http://github.com/sickill/coloration)
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" AnotherKolor Dark:                              A Custom Colorscheme for Vim
+"
+"                               Vim color file
+"            Converted from Textmate theme Another Kolor (Dark) 
+"       using Coloration v0.4.0 (http://github.com/sickill/coloration)
+"          
+"          Source: https://github.com/danyadsmith/vim-anotherkolor
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 set background=dark
 highlight clear
@@ -20,8 +27,11 @@ let g:colors_name = "anotherkolor-dark"
 " Blue, LightBlue, DarkBlue, Magenta, LightMagenta, DarkMagenta
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Foreground Colors
+" Foreground Colors:
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Color Wheel Colors
+
 hi RedFg          ctermfg=NONE guifg=#ff0000 
 hi VermilionFg    ctermfg=NONE guifg=#ff4000 
 hi OrangeFg       ctermfg=NONE guifg=#ff8000 
@@ -34,6 +44,8 @@ hi BlueFg         ctermfg=NONE guifg=#3333ff
 hi VioletFg       ctermfg=NONE guifg=#5533e6 
 hi PurpleFg       ctermfg=NONE guifg=#aa66cc 
 hi MagentaFg      ctermfg=NONE guifg=#ff0080 
+
+" Theme Colors
 
 hi PersimmonFg    ctermfg=NONE guifg=#FF615A 
 hi PaleOrangeFg   ctermfg=NONE guifg=#ffaf47 
@@ -56,6 +68,8 @@ hi BrownFg        ctermfg=NONE guifg=#5c3b0c
 hi TanFg          ctermfg=NONE guifg=#DAD5bf 
 hi SisalFg        ctermfg=NONE guifg=#DAD6C3
 hi EcruWhiteFg    ctermfg=NONE guifg=#F5F5E5
+
+" Grayscale Colors
 
 hi WhiteFg        ctermfg=231  guifg=#ffffff
 hi AlabasterFg    ctermfg=255  guifg=#f8f8f8
@@ -124,7 +138,7 @@ hi Normal           ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#
 hi LineNr           ctermfg=White ctermbg=Black cterm=NONE guifg=#444444 guibg=#222222 gui=NONE
 hi CursorLineNr     ctermfg=244   ctermbg=211   cterm=NONE guifg=#888888 guibg=#ff87af gui=NONE
 hi CursorColumn     ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#3a3a3a gui=NONE
-hi ColorColumn      ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#3a3a3a gui=NONE
+hi ColorColumn      ctermfg=NONE  ctermbg=Black cterm=NONE guifg=NONE    guibg=#222222 gui=NONE
 
 hi! link Cursor                         CodFg              " #222222 
 hi! link Visual                         MutedBg            " #3a3a3a
@@ -343,6 +357,15 @@ hi! link xmlEndTag                      ScooterFg          " #31aed8
 " VimScript
 hi! link vimHiGroup                     BlizzardBlueFg     " #b4e3f2
 hi! link vimHiTerm                      ChantillyFg        " #F7AFE7 
+hi! link vimHiCtermFgBg                 PurpleFg           " #aa66cc 
+hi! link vimHiGuiFgBg                   PurpleFg           " #aa66cc 
+hi! link vimHiGuiRgb                    WhiteFg            " #ffffff
+hi! link vimLineComment                 MutedFg            " #BBA981
+hi! link vimCommentTitle                DoveFg             " #666666
+hi! link vimMapMod                      ScooterFg          " #31aed8
+hi! link vimMapModKey                   ScooterFg          " #31aed8
+hi! link vimBracket                     ScooterFg          " #31aed8
+hi! link vimNotation                    ScooterFg          " #31aed8
 
 " C#
 hi! link csClassType                    HoneysuckleFg      " #f9fb8c
@@ -393,3 +416,4 @@ hi! link jsonString                     MoonGlowFg         " #FEFED0
 
 " Bash/Zsh/Shell
 hi! link shEcho                         BlizzardBlueFg     " #b4e3f2
+
