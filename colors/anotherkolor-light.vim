@@ -18,14 +18,14 @@ let g:colors_name = "anotherkolor-light"
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Available Highlight Color Keywords:
+" Theme Colors:
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Highlight Color Keywords
+"
 " Black, Gray, Grey, LightGray, LightGrey, DarkGray, DarkGrey, White
 " Red, LightRed, DarkRed, Yellow, LightYellow, DarkYellow, Brown
 " Green, LightGreen, DarkGreen, Cyan, LightCyan, DarkCyan
 " Blue, LightBlue, DarkBlue, Magenta, LightMagenta, DarkMagenta
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Foreground Colors
@@ -82,7 +82,8 @@ hi GrayFg         ctermfg=NONE guifg=#888888
 hi DoveFg         ctermfg=242  guifg=#666666
 hi TundoraLightFg ctermfg=240  guifg=#4A4A4A
 hi TundoraFg      ctermfg=240  guifg=#444444
-hi MutedFg        ctermfg=180  guifg=#BBA981
+hi LightMutedFg   ctermfg=180  guifg=#DEC999 
+hi DarkMutedFg    ctermfg=180  guifg=#BBA981 
 hi MineShaftLtFg  ctermfg=238  guifg=#3d3d3d
 hi MineShaftFg    ctermfg=238  guifg=#262626 
 hi CodFg          ctermfg=236  guifg=#222222
@@ -181,13 +182,13 @@ hi! link DiffChange                     OrangeFg           " #ff8000
 hi! link DiffText                       ScooterFg          " #31aed8
 hi! link ErrorMsg                       RedFg              " #ff0000
 hi! link WarningMsg                     AmberFg            " #ffc000
-hi! link NonText                        MutedFg            " #BBA981
-hi! link SpecialKey                     MutedFg            " #BBA981
+hi! link NonText                        LightMutedFg       " #DEC999
+hi! link SpecialKey                     LightMutedFg       " #DEC999
 hi! link Title                          GalleryFg          " #eeeeee
 
 hi! link Boolean                        DeepPurpleFg       " #94539a 
 hi! link Character                      NoHighlight
-hi! link Comment                        MutedFg            " #BBA981 
+hi! link Comment                        LightMutedFg       " #DEC999 
 hi! link Conditional                    ScooterFg          " #31aed8
 hi! link Constant                       NoHighlight
 hi! link Define                         ScooterFg          " #31aed8
@@ -373,8 +374,8 @@ hi! link vimHiTerm                      TurquoiseFg        " #43d3c1
 hi! link vimHiCtermFgBg                 PurpleFg           " #aa66cc 
 hi! link vimHiGuiFgBg                   PurpleFg           " #aa66cc 
 hi! link vimHiGuiRgb                    BlackFg            " #000000
-hi! link vimLineComment                 MutedFg            " #BBA981
-hi! link vimCommentTitle                BrownFg            " #5c3b0c 
+hi! link vimLineComment                 LightMutedFg       " #DEC999 
+hi! link vimCommentTitle                DarkMutedFg        " #BBA981
 hi! link vimMapMod                      BrownFg            " #5c3b0c 
 hi! link vimMapModKey                   BrownFg            " #5c3b0c 
 hi! link vimBracket                     BrownFg            " #5c3b0c 
