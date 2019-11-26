@@ -136,7 +136,7 @@ hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#
 
 hi Normal           ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1d1d1d gui=NONE
 hi LineNr           ctermfg=White ctermbg=Black cterm=NONE guifg=#444444 guibg=#222222 gui=NONE
-hi CursorLineNr     ctermfg=244   ctermbg=211   cterm=NONE guifg=#888888 guibg=#ff87af gui=NONE
+hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#AFDF00 gui=NONE
 hi CursorColumn     ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#3a3a3a gui=NONE
 hi ColorColumn      ctermfg=NONE  ctermbg=Black cterm=NONE guifg=NONE    guibg=#222222 gui=NONE
 

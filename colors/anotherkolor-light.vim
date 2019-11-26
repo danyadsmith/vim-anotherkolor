@@ -31,6 +31,8 @@ let g:colors_name = "anotherkolor-light"
 " Foreground Colors
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Color Wheel Foreground Colors
+
 hi RedFg          ctermfg=NONE guifg=#ff0000 
 hi VermilionFg    ctermfg=NONE guifg=#ff4000 
 hi OrangeFg       ctermfg=NONE guifg=#ff8000 
@@ -43,6 +45,8 @@ hi BlueFg         ctermfg=NONE guifg=#3333ff
 hi VioletFg       ctermfg=NONE guifg=#5533e6 
 hi PurpleFg       ctermfg=NONE guifg=#aa66cc 
 hi MagentaFg      ctermfg=NONE guifg=#ff0080 
+
+" Theme Foreground Colors
 
 hi DarkRedFg      ctermfg=NONE guifg=#d70000
 hi PersimmonFg    ctermfg=NONE guifg=#FF615A 
@@ -67,6 +71,8 @@ hi TanFg          ctermfg=NONE guifg=#DAD5bf
 hi SisalFg        ctermfg=NONE guifg=#DAD6C3
 hi EcruWhiteFg    ctermfg=NONE guifg=#F5F5E5
 
+" Grayscale Foreground Colors
+
 hi WhiteFg        ctermfg=231  guifg=#ffffff
 hi AlabasterFg    ctermfg=255  guifg=#f8f8f8
 hi GalleryFg      ctermfg=255  guifg=#eeeeee 
@@ -87,6 +93,9 @@ hi NoFg           ctermfg=NONE guifg=NONE
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Background Colors
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Color Wheel Background Colors
+
 hi RedBg          ctermbg=NONE guibg=#ff0000 
 hi VermilionBg    ctermbg=NONE guibg=#ff4000 
 hi OrangeBg       ctermbg=NONE guibg=#ff8000 
@@ -100,10 +109,12 @@ hi VioletBg       ctermbg=NONE guibg=#5533e6
 hi PurpleBg       ctermbg=NONE guibg=#aa66cc 
 hi MagentaBg      ctermbg=NONE guibg=#ff0080 
 
+" Theme Background Colors
+
 hi ForestGreenBg  ctermbg=NONE guibg=#47a628 
 hi ScooterBg      ctermbg=NONE guibg=#31aed8 
 hi CeriseBg       ctermbg=NONE guibg=#E642A2 
-
+hi PinkSalmonBg   ctermfg=NONE guifg=#ff87af 
 hi GorseBg        ctermbg=NONE guibg=#FFF654
 hi MoonGlowBg     ctermbg=NONE guibg=#FEFED0 
 hi PampasBg       ctermbg=NONE guibg=#F0EEE5
@@ -112,6 +123,9 @@ hi SisalBg        ctermbg=NONE guibg=#DAD6C3
 hi ThistleBg      ctermbg=NONE guibg=#CDCAAF
 hi EcruWhiteBg    ctermbg=NONE guibg=#F5F5E5
 hi AthsSpecialBg  ctermbg=NONE guibg=#EEE8D4
+hi LightBg        ctermbg=NONE guibg=#FCFAF6
+
+" Grayscale Background Colors
 
 hi WhiteBg        ctermbg=231  guibg=#ffffff
 hi AlabasterBg    ctermbg=255  guibg=#f8f8f8
@@ -131,20 +145,21 @@ hi GrayBg         ctermbg=NONE guibg=#888888
 hi BlackBg        ctermbg=000  guibg=#000000
 hi NoBg           ctermbg=NONE guibg=NONE    
 
-hi MutedHighlight   ctermfg=NONE  ctermbg=236   cterm=NONE guifg=NONE    guibg=#CDCAAF gui=NONE
+hi MutedHighlight   ctermfg=NONE  ctermbg=236   cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
 hi SearchHighlight  ctermfg=236   ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#FFF654 gui=NONE
 hi DarkNormal       ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1a1a1a gui=NONE 
-hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#DAD6C3 gui=NONE 
+hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#FCFAF6 gui=NONE 
 
-hi Normal           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#EEE8D4 gui=NONE 
-hi LineNr           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#000000 guibg=#CDCAAF gui=NONE
-hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#EEE8D4 gui=NONE
-hi CursorColumn     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#CDCAAF gui=NONE
-hi ColorColumn      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#CDCAAF gui=NONE
+hi Normal           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#FCFAF6 gui=NONE 
+hi LineNr           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#000000 guibg=#EEE8D4 gui=NONE
+hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#AFDF00 gui=NONE
+hi CursorColumn     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
+hi ColorColumn      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
 
-hi! link Cursor                         CodFg              " #222222 
+hi! link Cursor                         CharcoalBg         " #141414
+hi! link Cursor                         GalleryFg          " #eeeeee
 hi! link Visual                         MutedBg            " #BBA981
-hi! link CursorLine                     AthsSpecialBg      " #EEE8D4
+hi! link CursorLine                     LightBg            " #FCFAF6
 hi! link VertSplit                      ThistleBg          " #CDCAAF
 hi! link VertSplit                      ThistleFg          " #CDCAAF
 hi! link MatchParen                     ScooterFg          " #31aed8
@@ -295,12 +310,12 @@ hi! link cssValueLength                 MoonGlowFg         " #FEFED0
 hi! link cssCommonAttr                  ScooterFg          " #31aed8
 hi! link cssBraces                      NoFg
 
-" GitGutter
-hi SignColumn             ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#CDCAAF gui=NONE
-hi GitGutterAdd           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#47a628 guibg=#CDCAAF gui=NONE
-hi GitGutterDelete        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#d70000 guibg=#CDCAAF gui=NONE
-hi GitGutterChange        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#3333ff guibg=#CDCAAF gui=NONE
-hi GitGutterChangeDelete  ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#e642a2 guibg=#CDCAAF gui=NONE
+" GitGutter #EEE8D4
+hi SignColumn             ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
+hi GitGutterAdd           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#47a628 guibg=#EEE8D4 gui=NONE
+hi GitGutterDelete        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#d70000 guibg=#EEE8D4 gui=NONE
+hi GitGutterChange        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#3333ff guibg=#EEE8D4 gui=NONE
+hi GitGutterChangeDelete  ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#e642a2 guibg=#EEE8D4 gui=NONE
 
 " Markdown
 hi! link markdownHeadingDelimiter       MutedBg            " #BBA981
