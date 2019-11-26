@@ -1,4 +1,4 @@
-" Vim color file
+"::im color file
 " Converted from Textmate theme Another Kolor (Dark) using Coloration v0.4.0 (http://github.com/sickill/coloration)
 
 set background=light
@@ -95,6 +95,7 @@ hi MoonGlowBg     ctermbg=NONE guibg=#FEFED0
 hi PampasBg       ctermbg=NONE guibg=#F0EEE5
 hi TanBg          ctermbg=NONE guibg=#DAD5bf 
 hi SisalBg        ctermbg=NONE guibg=#DAD6C3
+hi ThistleBg      ctermbg=NONE guibg=#CDCAAF
 hi EcruWhiteBg    ctermbg=NONE guibg=#F5F5E5
 
 hi WhiteBg        ctermbg=231  guibg=#ffffff
@@ -121,16 +122,16 @@ hi DarkNormal       ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#
 hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#DAD6C3 gui=NONE 
 
 hi Normal           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#DAD6C3 gui=NONE 
-hi LineNr           ctermfg=White ctermbg=Black cterm=NONE guifg=#444444 guibg=#DAD5bf gui=NONE
+hi LineNr           ctermfg=White ctermbg=Black cterm=NONE guifg=#000000 guibg=#CDCAAF gui=NONE
 hi CursorLineNr     ctermfg=244   ctermbg=211   cterm=NONE guifg=#888888 guibg=#ff87af gui=NONE
-hi CursorColumn     ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#3a3a3a gui=NONE
-hi ColorColumn      ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#3a3a3a gui=NONE
+hi CursorColumn     ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#CDCAAF gui=NONE
+hi ColorColumn      ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#CDCAAF gui=NONE
 
 hi! link Cursor                         CodFg              " #222222 
 hi! link Visual                         MutedBg            " #3a3a3a
 hi! link CursorLine                     CodBg              " #222222
-hi! link VertSplit                      ScorpionBg         " #5d5d5d
-hi! link VertSplit                      ScorpionFg         " #5d5d5d
+hi! link VertSplit                      ThistleBg          " #CDCAAF
+hi! link VertSplit                      ThistleFg          " #CDCAAF
 hi! link MatchParen                     ScooterFg          " #31aed8
 hi! link StatusLine                     GalleryFg          " #eeeeee 
 hi! link StatusLine                     ScorpionBg         " #5d5d5d
@@ -164,14 +165,14 @@ hi! link Float                          MoonGlowFg         " #FEFED0
 hi! link Function                       NoHighlight
 hi! link Identifier                     ScooterFg          " #31aed8
 hi! link Keyword                        ScooterFg          " #31aed8
-hi! link Label                          TanFg              " #DAD5bf
+hi! link Label                          BrownBg            " #5C3B0C
 hi! link Number                         MoonGlowFg         " #FEFED0
-hi! link Operator                       WhiteFg            " #ffffff
+hi! link Operator                       BlackFg            " #000000
 hi! link PreProc                        ScooterFg          " #31aed8
 hi! link Special                        GalleryFg          " #eeeeee
 hi! link Statement                      ScooterFg          " #31aed8
 hi! link StorageClass                   ScooterFg          " #31aed8
-hi! link String                         TanFg              " #DAD5bf
+hi! link String                         BrownBg            " #5C3B0C
 hi! link Tag                            BlueFg             " #3333ff
 hi! link Todo                           PurpleFg           " #aa66cc
 hi! link Type                           ChartreuseFg       " #99eb00
@@ -209,10 +210,10 @@ hi! link rubyInclude                    ScooterFg          " #31aed8
 hi! link rubyGlobalVariable             BlizzardBlueFg     " #b4e3f2
 hi! link rubyRegexp                     SisalFg            " #DAD6C3
 hi! link rubyRegexpDelimiter            SisalFg            " #DAD6C3
-hi! link rubyEscape                     WhiteFg            " #ffffff 
+hi! link rubyEscape                     BlackFg            " #000000 
 hi! link rubyControl                    ScooterFg          " #31aed8
 hi! link rubyClassVariable              ForestGreenFg      " #47a628
-hi! link rubyOperator                   WhiteFg            " #ffffff
+hi! link rubyOperator                   BlackFg            " #000000
 hi! link rubyException                  ScooterFg          " #31aed8
 hi! link rubyPseudoVariable             CeriseFg           " #E642A2
 hi! link rubyRailsUserClass             CeriseFg           " #E642A2
@@ -234,7 +235,7 @@ hi! link htmlSpecialChar                HoneysuckleFg      " #f9fb8c
 hi! link htmlString                     MoonGlowFg         " #FEFED0
 hi! link htmlSpecialTagName             ForestGreenFg      " #47a628
 hi! link htmlTitle                      NoFg
-hi! link htmlH1                         WhiteFg            " #ffffff
+hi! link htmlH1                         BlackFg            " #000000
 hi! link htmlLink                       NoFg
 hi! link htmlComment                    MutedBg            " #3a3a3a
 hi! link htmlScriptTag                  ScooterFg          " #31aed8
@@ -252,9 +253,9 @@ hi! link jsObjectBraces                 ScooterFg          " #31aed8
 hi! link jsObjectKey                    BlizzardBlueFg     " #b4e3f2
 hi! link jsObjectValue                  BlizzardBlueFg     " #b4e3f2
 hi! link jsParens                       ForestGreenFg      " #47a628
-hi! link jsParensIfElse                 WhiteFg            " #ffffff
-hi! link jsParenIfElse                  WhiteFg            " #ffffff
-hi! link jsParensRepeat                 WhiteFg            " #ffffff
+hi! link jsParensIfElse                 BlackFg            " #000000
+hi! link jsParenIfElse                  BlackFg            " #000000
+hi! link jsParensRepeat                 BlackFg            " #000000
 hi! link jsGlobalObjects                CeriseFg           " #E642A2
 hi! link jsOperatorKeyword              PersimmonFg        " #FF615A
 hi! link javaScriptFunction             ScooterFg          " #31aed8
@@ -265,12 +266,12 @@ hi! link javaScriptBraces               NoFg
 hi! link yamlKey                        NoFg
 hi! link yamlAnchor                     SailFg             " #A7E4F4
 hi! link yamlAlias                      SailFg             " #A7E4F4
-hi! link yamlDocumentHeader             TanFg              " #DAD5bf
+hi! link yamlDocumentHeader             BrownBg            " #5C3B0C
 
 " CSS 
 hi! link cssURL                         ForestGreenFg      " #47a628
 hi! link cssFunctionName                NoFg
-hi! link cssColor                       WhiteFg            " #ffffff
+hi! link cssColor                       BlackFg            " #000000
 hi! link cssPseudoClassId               PaleOrangeFg       " #ffaf47
 hi! link cssIdentifier                  CeriseFg           " #E642A2
 hi! link cssProc                        BlizzardBlueFg     " #b4e3f2
@@ -292,7 +293,7 @@ hi! link GitGutterChangeDelete          CeriseFg           " #E642A2
 
 " Markdown
 hi! link markdownHeadingDelimiter       MutedBg            " #3a3a3a
-hi! link markdownH1                     WhiteFg            " #ffffff
+hi! link markdownH1                     BlackFg            " #000000
 hi! link markdownH2                     ScooterFg          " #31aed8
 hi! link markdownH3                     ScooterFg          " #31aed8
 hi! link markdownH4                     ScooterFg          " #31aed8
@@ -347,16 +348,16 @@ hi! link vimHiTerm                      ChantillyFg        " #F7AFE7
 " C#
 hi! link csClassType                    HoneysuckleFg      " #f9fb8c
 hi! link csClass                        HoneysuckleFg      " #f9fb8c
-hi! link csEnclosed                     WhiteFg            " #ffffff
+hi! link csEnclosed                     BlackFg            " #000000
 hi! link csModifier                     ScooterFg          " #31aed8
 hi! link csType                         ScooterFg          " #31aed8
 hi! link csUnspecifiedStatement         ScooterFg          " #31aed8
 hi! link csEndColon                     ScooterFg          " #31aed8
-hi! link csOpSymbols                    WhiteFg            " #ffffff
+hi! link csOpSymbols                    BlackFg            " #000000
 hi! link csBraces                       NoFg
 hi! link csNew                          ScooterFg          " #31aed8
 hi! link csNewType                      ScooterFg          " #31aed8
-hi! link csParens                       WhiteFg            " #ffffff
+hi! link csParens                       BlackFg            " #000000
 hi! link csRepeat                       PaleOrangeFg       " #ffaf47
 hi! link csConditional                  TurquoiseFg        " #43d3c1
 hi! link csQuote                        HoneysuckleFg      " #f9fb8c
