@@ -12,6 +12,14 @@ let g:colors_name = "anotherkolor-dark"
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Available Highlight Color Keywords:
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Black, Gray, Grey, LightGray, LightGrey, DarkGray, DarkGrey, White
+" Red, LightRed, DarkRed, Yellow, LightYellow, DarkYellow, Brown
+" Green, LightGreen, DarkGreen, Cyan, LightCyan, DarkCyan
+" Blue, LightBlue, DarkBlue, Magenta, LightMagenta, DarkMagenta
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Foreground Colors
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 hi RedFg          ctermfg=NONE guifg=#ff0000 
@@ -42,8 +50,6 @@ hi ScooterFg      ctermfg=NONE guifg=#31aed8
 hi LavenderFg     ctermfg=NONE guifg=#D6B5F1 
 hi DeepPurpleFg   ctermfg=NONE guifg=#94539a 
 hi CeriseFg       ctermfg=NONE guifg=#E642A2 
-hi RedVioletFg    ctermfg=NONE guifg=#C02B83
-hi LightOrchidFg  ctermfg=NONE guifg=#edb4e4 
 hi ChantillyFg    ctermfg=NONE guifg=#F7AFE7 
 hi PinkSalmonFg   ctermfg=NONE guifg=#ff87af 
 hi BrownFg        ctermfg=NONE guifg=#5c3b0c 
@@ -56,7 +62,7 @@ hi AlabasterFg    ctermfg=255  guifg=#f8f8f8
 hi GalleryFg      ctermfg=255  guifg=#eeeeee 
 hi AltoFg         ctermfg=253  guifg=#DDDDDD
 hi SilverFg       ctermfg=251  guifg=#CCCCCC
-hi DustyFg        ctermfg=245  guifg=#9a9a9a
+hi GrayFg         ctermfg=NONE guifg=#888888
 hi DoveFg         ctermfg=242  guifg=#666666
 hi TundoraLightFg ctermfg=240  guifg=#4A4A4A
 hi TundoraFg      ctermfg=240  guifg=#444444
@@ -65,7 +71,6 @@ hi MineShaftLtFg  ctermfg=238  guifg=#3d3d3d
 hi MineShaftFg    ctermfg=238  guifg=#262626 
 hi CodFg          ctermfg=236  guifg=#222222
 hi CharcoalFg     ctermfg=233  guifg=#141414
-hi GrayFg         ctermfg=NONE guifg=#888888
 hi BlackFg        ctermfg=000  guifg=#000000
 hi NoFg           ctermfg=NONE guifg=NONE    
 
@@ -116,62 +121,61 @@ hi DarkNormal       ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#
 hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#DAD6C3 gui=NONE 
 
 hi Normal           ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1d1d1d gui=NONE
+hi LineNr           ctermfg=White ctermbg=Black cterm=NONE guifg=#444444 guibg=#222222 gui=NONE
+hi CursorLineNr     ctermfg=244   ctermbg=211   cterm=NONE guifg=#888888 guibg=#ff87af gui=NONE
+hi CursorColumn     ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#3a3a3a gui=NONE
+hi ColorColumn      ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#3a3a3a gui=NONE
 
-hi! link Cursor                         CodFg
-hi! link Visual                         MutedBg
-hi! link CursorLine                     CodBg
-hi! link CursorLineNr                   CodFg
-hi! link CursorColumn                   MutedBg
-hi! link ColorColumn                    MutedBg
-hi! link LineNr                         GrayFg
-hi! link LineNr                         PinkSalmonFg
-hi! link VertSplit                      ScorpionBg
-hi! link VertSplit                      ScorpionFg
-hi! link MatchParen                     ScooterFg
-hi! link StatusLine                     GalleryFg 
-hi! link StatusLine                     ScorpionBg
-hi! link StatusLineNC                   GalleryFg 
-hi! link StatusLineNC                   ScorpionBg
+hi! link Cursor                         CodFg              " #222222 
+hi! link Visual                         MutedBg            " #3a3a3a
+hi! link CursorLine                     CodBg              " #222222
+hi! link VertSplit                      ScorpionBg         " #5d5d5d
+hi! link VertSplit                      ScorpionFg         " #5d5d5d
+hi! link MatchParen                     ScooterFg          " #31aed8
+hi! link StatusLine                     GalleryFg          " #eeeeee 
+hi! link StatusLine                     ScorpionBg         " #5d5d5d
+hi! link StatusLineNC                   GalleryFg          " #eeeeee 
+hi! link StatusLineNC                   ScorpionBg         " #5d5d5d
 hi! link Pmenu                          NoFg
-hi! link PmenuSel                       MineShaftBg
-hi! link IncSearch                      CodFg
+hi! link PmenuSel                       MineShaftBg        " #262626
+hi! link IncSearch                      CodFg              " #222222
 hi! link IncSearch                      SisalBg
 hi! link Search                         SearchHighlight
 hi! link Directory                      NoFg
 hi! link Folded                         MutedHighlight
 
-hi! link DiffAdd                        GreenFg
-hi! link DiffDelete                     RedFg
-hi! link DiffChange                     OrangeFg
-hi! link DiffText                       ScooterFg
-hi! link ErrorMsg                       RedFg
-hi! link WarningMsg                     AmberFg
-hi! link NonText                        MutedFg
-hi! link SpecialKey                     MutedFg
-hi! link Title                          GalleryFg
+hi! link DiffAdd                        GreenFg            " #00cc00
+hi! link DiffDelete                     RedFg              " #ff0000
+hi! link DiffChange                     OrangeFg           " #ff8000
+hi! link DiffText                       ScooterFg          " #31aed8
+hi! link ErrorMsg                       RedFg              " #ff0000
+hi! link WarningMsg                     AmberFg            " #ffc000
+hi! link NonText                        MutedFg            " #3a3a3a
+hi! link SpecialKey                     MutedFg            " #3a3a3a
+hi! link Title                          GalleryFg          " #eeeeee
 
-hi! link Boolean                        DeepPurple 
+hi! link Boolean                        DeepPurpleFg       " #94539a 
 hi! link Character                      NoHighlight
-hi! link Comment                        Invisibles
-hi! link Conditional                    ScooterFg
+hi! link Comment                        MutedFg            " #3a3a3a 
+hi! link Conditional                    ScooterFg          " #31aed8
 hi! link Constant                       NoHighlight
-hi! link Define                         ScooterFg
-hi! link Float                          PaleYellow
+hi! link Define                         ScooterFg          " #31aed8
+hi! link Float                          MoonGlowFg         " #FEFED0
 hi! link Function                       NoHighlight
-hi! link Identifier                     ScooterFg
-hi! link Keyword                        ScooterFg
-hi! link Label                          TanFg
-hi! link Number                         PaleYellowFg
-hi! link Operator                       WhiteFg
-hi! link PreProc                        ScooterFg
-hi! link Special                        GalleryFg
-hi! link Statement                      ScooterFg
-hi! link StorageClass                   ScooterFg
-hi! link String                         TanFg
-hi! link Tag                            BlueFg
-hi! link Todo                           PurpleFg
-hi! link Type                           ChartreuseFg
-hi! link Underlined                     AmberFg
+hi! link Identifier                     ScooterFg          " #31aed8
+hi! link Keyword                        ScooterFg          " #31aed8
+hi! link Label                          TanFg              " #DAD5bf
+hi! link Number                         MoonGlowFg         " #FEFED0
+hi! link Operator                       WhiteFg            " #ffffff
+hi! link PreProc                        ScooterFg          " #31aed8
+hi! link Special                        GalleryFg          " #eeeeee
+hi! link Statement                      ScooterFg          " #31aed8
+hi! link StorageClass                   ScooterFg          " #31aed8
+hi! link String                         TanFg              " #DAD5bf
+hi! link Tag                            BlueFg             " #3333ff
+hi! link Todo                           PurpleFg           " #aa66cc
+hi! link Type                           ChartreuseFg       " #99eb00
+hi! link Underlined                     AmberFg            " #ffc000
 
 hi! link Class                          NoFg
 hi! link DefinedName                    NoFg
@@ -185,208 +189,207 @@ hi! link Union                          NoFg
 hi! link GlobalConstant                 NoFg
 hi! link GlobalVariable                 NoFg
 hi! link LocalVariable                  NoFg
-hi! link Field                          CeriseFg
-hi! link Method                         ForestGreenFg
-hi! link Property                       BlizzardBlueFg
+hi! link Field                          CeriseFg           " #E642A2
+hi! link Method                         ForestGreenFg      " #47a628
+hi! link Property                       BlizzardBlueFg     " #b4e3f2
 "
 " Ruby
-hi! link rubyClass                          HoneysuckleFg
-hi! link rubyFunction                         HoneysuckleFg
-hi! link rubyMethodBlock                      ScooterFg
-hi! link rubyInterpolationDelimiter           PaleOrangeFg
-hi! link rubyKeywordAsMethod                  PaleOrangeFg
-hi! link rubySymbol                           PersimmonFg
-hi! link rubyConstant                         CeriseFg
-hi! link rubyStringDelimiter                  HoneysuckleFg
-hi! link rubyString                           PaleYellow
-hi! link rubyBlockParameter                   ForestGreenFg
-hi! link rubyInstanceVariable                 CeriseFg
-hi! link rubyInclude                          ScooterFg
-hi! link rubyGlobalVariable                   BlizzardBlueFg
-hi! link rubyRegexp                           SisalFg
-hi! link rubyRegexpDelimiter                  SisalFg
-hi! link rubyEscape                           WhiteFg 
-hi! link rubyControl                          ScooterFg
-hi! link rubyClassVariable                    ForestGreenFg
-hi! link rubyOperator                         WhiteFg
-hi! link rubyException                        ScooterFg
-hi! link rubyPseudoVariable                   CeriseFg
-hi! link rubyRailsUserClass                   CeriseFg
-hi! link rubyRailsARAssociationMethod         NoFg
-hi! link rubyRailsARMethod                    NoFg
-hi! link rubyRailsRenderMethod                NoFg
-hi! link rubyRailsMethod                      NoFg
-hi! link erubyDelimiter                       NoFg
-hi! link erubyComment                         MineShaftLtFg
-hi! link erubyRailsMethod                     NoFg
+hi! link rubyClass                      HoneysuckleFg      " #f9fb8c
+hi! link rubyFunction                   HoneysuckleFg      " #f9fb8c
+hi! link rubyMethodBlock                ScooterFg          " #31aed8
+hi! link rubyInterpolationDelimiter     PaleOrangeFg       " #ffaf47
+hi! link rubyKeywordAsMethod            PaleOrangeFg       " #ffaf47
+hi! link rubySymbol                     PersimmonFg        " #FF615A
+hi! link rubyConstant                   CeriseFg           " #E642A2
+hi! link rubyStringDelimiter            HoneysuckleFg      " #f9fb8c
+hi! link rubyString                     MoonGlowFg         " #FEFED0
+hi! link rubyBlockParameter             ForestGreenFg      " #47a628
+hi! link rubyInstanceVariable           CeriseFg           " #E642A2
+hi! link rubyInclude                    ScooterFg          " #31aed8
+hi! link rubyGlobalVariable             BlizzardBlueFg     " #b4e3f2
+hi! link rubyRegexp                     SisalFg            " #DAD6C3
+hi! link rubyRegexpDelimiter            SisalFg            " #DAD6C3
+hi! link rubyEscape                     WhiteFg            " #ffffff 
+hi! link rubyControl                    ScooterFg          " #31aed8
+hi! link rubyClassVariable              ForestGreenFg      " #47a628
+hi! link rubyOperator                   WhiteFg            " #ffffff
+hi! link rubyException                  ScooterFg          " #31aed8
+hi! link rubyPseudoVariable             CeriseFg           " #E642A2
+hi! link rubyRailsUserClass             CeriseFg           " #E642A2
+hi! link rubyRailsARAssociationMethod   NoFg
+hi! link rubyRailsARMethod              NoFg
+hi! link rubyRailsRenderMethod          NoFg
+hi! link rubyRailsMethod                NoFg
+hi! link erubyDelimiter                 NoFg
+hi! link erubyComment                   MineShaftLtFg      " #3a3a3a
+hi! link erubyRailsMethod               NoFg
 
 " HTML
-hi! link htmlTag                              ScooterFg
-hi! link htmlEndTag                           ScooterFg
-hi! link htmlTagN                             ScooterFg
-hi! link htmlTagName                          ScooterFg
-hi! link htmlArg                              BlizzardBlueFg
-hi! link htmlSpecialChar                      HoneysuckleFg
-hi! link htmlString                           PaleYellow
-hi! link htmlSpecialTagName                   ForestGreenFg
-hi! link htmlTitle                            NoFg
-hi! link htmlH1                               WhiteFg
-hi! link htmlLink                             NoFg
-hi! link htmlComment                          MutedBg
-hi! link htmlScriptTag                        ScooterFg
+hi! link htmlTag                        ScooterFg          " #31aed8
+hi! link htmlEndTag                     ScooterFg          " #31aed8
+hi! link htmlTagN                       ScooterFg          " #31aed8
+hi! link htmlTagName                    ScooterFg          " #31aed8
+hi! link htmlArg                        BlizzardBlueFg     " #b4e3f2
+hi! link htmlSpecialChar                HoneysuckleFg      " #f9fb8c
+hi! link htmlString                     MoonGlowFg         " #FEFED0
+hi! link htmlSpecialTagName             ForestGreenFg      " #47a628
+hi! link htmlTitle                      NoFg
+hi! link htmlH1                         WhiteFg            " #ffffff
+hi! link htmlLink                       NoFg
+hi! link htmlComment                    MutedBg            " #3a3a3a
+hi! link htmlScriptTag                  ScooterFg          " #31aed8
 
 " JavaScript
-hi! link jsFunction                     ScooterFg
-hi! link jsFuncName                     HoneysuckleFg
-hi! link jsFuncArgs                     PaleOrangeFg
-hi! link jsFuncCall                     ForestGreenFg
-hi! link jsString                       PaleYellow
-hi! link jsNull                         PersimmonFg
-hi! link jsUndefined                    PersimmonFg
-hi! link jsBrackets                     ScooterFg
-hi! link jsObjectBraces                 ScooterFg
-hi! link jsObjectKey                    BlizzardBlueFg
-hi! link jsObjectValue                  BlizzardBlueFg
-hi! link jsParens                       ForestGreenFg
-hi! link jsParensIfElse                 WhiteFg
-hi! link jsParenIfElse                  WhiteFg
-hi! link jsParensRepeat                 WhiteFg
-hi! link jsGlobalObjects                CeriseFg
-hi! link jsOperatorKeyword              PersimmonFg
-hi! link javaScriptFunction             ScooterFg
+hi! link jsFunction                     ScooterFg          " #31aed8
+hi! link jsFuncName                     HoneysuckleFg      " #f9fb8c
+hi! link jsFuncArgs                     PaleOrangeFg       " #ffaf47
+hi! link jsFuncCall                     ForestGreenFg      " #47a628
+hi! link jsString                       MoonGlowFg         " #FEFED0
+hi! link jsNull                         PersimmonFg        " #FF615A
+hi! link jsUndefined                    PersimmonFg        " #FF615A
+hi! link jsBrackets                     ScooterFg          " #31aed8
+hi! link jsObjectBraces                 ScooterFg          " #31aed8
+hi! link jsObjectKey                    BlizzardBlueFg     " #b4e3f2
+hi! link jsObjectValue                  BlizzardBlueFg     " #b4e3f2
+hi! link jsParens                       ForestGreenFg      " #47a628
+hi! link jsParensIfElse                 WhiteFg            " #ffffff
+hi! link jsParenIfElse                  WhiteFg            " #ffffff
+hi! link jsParensRepeat                 WhiteFg            " #ffffff
+hi! link jsGlobalObjects                CeriseFg           " #E642A2
+hi! link jsOperatorKeyword              PersimmonFg        " #FF615A
+hi! link javaScriptFunction             ScooterFg          " #31aed8
 hi! link javaScriptRailsFunction        NoFg
 hi! link javaScriptBraces               NoFg
 
 " YAML
 hi! link yamlKey                        NoFg
-hi! link yamlAnchor                     SailFg
-hi! link yamlAlias                      SailFg
-hi! link yamlDocumentHeader             TanFg
+hi! link yamlAnchor                     SailFg             " #A7E4F4
+hi! link yamlAlias                      SailFg             " #A7E4F4
+hi! link yamlDocumentHeader             TanFg              " #DAD5bf
 
 " CSS 
-hi! link cssURL                         ForestGreenFg
+hi! link cssURL                         ForestGreenFg      " #47a628
 hi! link cssFunctionName                NoFg
-hi! link cssColor                       WhiteFg
-hi! link cssPseudoClassId               PaleOrangeFg
-hi! link cssIdentifier                  CeriseFg
-hi! link cssProc                        BlizzardBlueFg
-hi! link cssClassName                   ChantillyFg
-hi! link cssValueLength                 PaleYellow
-hi! link cssCommonAttr                  ScooterFg
+hi! link cssColor                       WhiteFg            " #ffffff
+hi! link cssPseudoClassId               PaleOrangeFg       " #ffaf47
+hi! link cssIdentifier                  CeriseFg           " #E642A2
+hi! link cssProc                        BlizzardBlueFg     " #b4e3f2
+hi! link cssClassName                   ChantillyFg        " #F7AFE7
+hi! link cssValueLength                 MoonGlowFg         " #FEFED0
+hi! link cssCommonAttr                  ScooterFg          " #31aed8
 hi! link cssBraces                      NoFg
 
 " GitGutter
-hi! link SignColumn                     CodBg
-hi! link SignColumn                     ForestGreenFg 
-hi! link GitGutterAdd                   CodBg
-hi! link GitGutterAdd                   ForestGreenFg
-hi! link GitGutterDelete                CodBg
-hi! link GitGutterDelete                RedFg
-hi! link GitGutterChange                CodBg
-hi! link GitGutterChange                GreenAppleFg
-hi! link GitGutterChangeDelete          CodBg
-hi! link GitGutterChangeDelete          RedVioletFg
+hi! link SignColumn                     CodBg              " #222222
+hi! link GitGutterAdd                   CodBg              " #222222
+hi! link GitGutterAdd                   ForestGreenFg      " #47a628
+hi! link GitGutterDelete                CodBg              " #222222
+hi! link GitGutterDelete                RedFg              " #ff0000
+hi! link GitGutterChange                CodBg              " #222222
+hi! link GitGutterChange                ScooterFg          " #31aed8
+hi! link GitGutterChangeDelete          CodBg              " #222222
+hi! link GitGutterChangeDelete          CeriseFg           " #E642A2
 
 " Markdown
-hi! link markdownHeadingDelimiter       MutedBg
-hi! link markdownH1                     WhiteFg
-hi! link markdownH2                     ScooterFg
-hi! link markdownH3                     ScooterFg
-hi! link markdownH4                     ScooterFg
-hi! link markdownH5                     ScooterFg
-hi! link markdownH6                     ScooterFg
-hi! link markdownBold                   ScooterFg
-hi! link markdownItalic                 BlizzardBlueFg
-hi! link markdownCodeDelimiter          OlivineFg
-hi! link markdownCodeBlock              OlivineFg
-hi! link markdownCode                   OlivineFg
-hi! link markdownLinkText               ChantillyFg
+hi! link markdownHeadingDelimiter       MutedBg            " #3a3a3a
+hi! link markdownH1                     WhiteFg            " #ffffff
+hi! link markdownH2                     ScooterFg          " #31aed8
+hi! link markdownH3                     ScooterFg          " #31aed8
+hi! link markdownH4                     ScooterFg          " #31aed8
+hi! link markdownH5                     ScooterFg          " #31aed8
+hi! link markdownH6                     ScooterFg          " #31aed8
+hi! link markdownBold                   ScooterFg          " #31aed8
+hi! link markdownItalic                 BlizzardBlueFg     " #b4e3f2
+hi! link markdownCodeDelimiter          OlivineFg          " #94c470
+hi! link markdownCodeBlock              OlivineFg          " #94c470
+hi! link markdownCode                   OlivineFg          " #94c470
+hi! link markdownLinkText               ChantillyFg        " #F7AFE7
 hi! link markdownLinkTextDelimiter      NoFg
-hi! link markdownLink                   ChantillyFg
+hi! link markdownLink                   ChantillyFg        " #F7AFE7
 hi! link markdownUrl                    NoFg
-hi! link markdownListMarker             ScooterFg
-hi! link markdownBlockquote             ScooterFg
-hi! link mmdTable                       PaleOrangeFg
-hi! link mmdTableHeader                 PaleOrangeFg
-hi! link mmdTableDelimiter              PaleOrangeFg
+hi! link markdownListMarker             ScooterFg          " #31aed8
+hi! link markdownBlockquote             ScooterFg          " #31aed8
+hi! link mmdTable                       PaleOrangeFg       " #ffaf47
+hi! link mmdTableHeader                 PaleOrangeFg       " #ffaf47
+hi! link mmdTableDelimiter              PaleOrangeFg       " #ffaf47
 
 " CriticMarkup
 "
-hi! link mdCriticAdd                    ForestGreenFg
-hi! link mdCriticAddition               ForestGreenFg
-hi! link mdCriticAddStartMark           ForestGreenFg
-hi! link mdCriticAddEndMark             ForestGreenFg
-hi! link mdCriticDel                    RedFg
-hi! link mdCriticDeletion               TundoraLightFg
-hi! link mdCriticDelStartMark           RedFg 
-hi! link mdCriticDelEndMark             RedFg
-hi! link mdCriticSubRemove              TundoraLightFg
-hi! link mdCriticSubStartMark           OrangeFg
-hi! link mdCriticSubstitute             OrangeFg
-hi! link mdCriticSubTransMark           OrangeFg
-hi! link mdCriticSubEndMark             OrangeFg
-hi! link mdCriticComment                PurpleFg
-hi! link mdCriticCommentStartMark       PurpleFg
-hi! link mdCriticCommentEndMark         PurpleFg
-hi! link mdCriticCom                    PurpleFg
-hi! link mdCriticHighlight              AmberFg
-hi! link mdCriticExtra                  AmberFg
+hi! link mdCriticAdd                    ForestGreenFg      " #47a628
+hi! link mdCriticAddition               ForestGreenFg      " #47a628
+hi! link mdCriticAddStartMark           ForestGreenFg      " #47a628
+hi! link mdCriticAddEndMark             ForestGreenFg      " #47a628
+hi! link mdCriticDel                    RedFg              " #ff0000
+hi! link mdCriticDeletion               TundoraLightFg     " #4A4A4A
+hi! link mdCriticDelStartMark           RedFg              " #ff0000 
+hi! link mdCriticDelEndMark             RedFg              " #ff0000
+hi! link mdCriticSubRemove              TundoraLightFg     " #4A4A4A
+hi! link mdCriticSubStartMark           OrangeFg           " #ff8000
+hi! link mdCriticSubstitute             OrangeFg           " #ff8000
+hi! link mdCriticSubTransMark           OrangeFg           " #ff8000
+hi! link mdCriticSubEndMark             OrangeFg           " #ff8000
+hi! link mdCriticComment                PurpleFg           " #aa66cc
+hi! link mdCriticCommentStartMark       PurpleFg           " #aa66cc
+hi! link mdCriticCommentEndMark         PurpleFg           " #aa66cc
+hi! link mdCriticCom                    PurpleFg           " #aa66cc
+hi! link mdCriticHighlight              AmberFg            " #ffc000
+hi! link mdCriticExtra                  AmberFg            " #ffc000
 "
 " XML
-hi! link xmlTag                         ScooterFg
-hi! link xmlTagName                     ScooterFg
-hi! link xmlEndTag                      ScooterFg
+hi! link xmlTag                         ScooterFg          " #31aed8
+hi! link xmlTagName                     ScooterFg          " #31aed8
+hi! link xmlEndTag                      ScooterFg          " #31aed8
 
 " VimScript
-hi! link vimHiGroup                     BlizzardBlueFg
-hi! link vimHiTerm                      ChantillyFg 
+hi! link vimHiGroup                     BlizzardBlueFg     " #b4e3f2
+hi! link vimHiTerm                      ChantillyFg        " #F7AFE7 
 
 " C#
-hi! link csClassType                    HoneysuckleFg
-hi! link csClass                        HoneysuckleFg
-hi! link csEnclosed                     WhiteFg
-hi! link csModifier                     ScooterFg
-hi! link csType                         ScooterFg
-hi! link csUnspecifiedStatement         ScooterFg
-hi! link csEndColon                     ScooterFg
-hi! link csOpSymbols                    WhiteFg
+hi! link csClassType                    HoneysuckleFg      " #f9fb8c
+hi! link csClass                        HoneysuckleFg      " #f9fb8c
+hi! link csEnclosed                     WhiteFg            " #ffffff
+hi! link csModifier                     ScooterFg          " #31aed8
+hi! link csType                         ScooterFg          " #31aed8
+hi! link csUnspecifiedStatement         ScooterFg          " #31aed8
+hi! link csEndColon                     ScooterFg          " #31aed8
+hi! link csOpSymbols                    WhiteFg            " #ffffff
 hi! link csBraces                       NoFg
-hi! link csNew                          ScooterFg
-hi! link csNewType                      ScooterFg
-hi! link csParens                       WhiteFg
-hi! link csRepeat                       PaleOrangeFg
-hi! link csConditional                  TurquoiseFg
-hi! link csQuote                        HoneysuckleFg
-hi! link csString                       PaleYellow
-hi! link csLabel                        TurquoiseFg
-hi! link csComment                      MineShaftLtFg
-hi! link csAttribute                    ForestGreenFg
-hi! link csLinq                         ChantillyFg
-hi! link csException                    CeriseFg
-hi! link csConstant                     PaleYellow
-hi! link csTodo                         PersimmonFg
-hi! link csIsType                       PersimmonFg
-hi! link csIsInterpolation              PaleOrangeFg
-hi! link csIsInterpolatedString         PaleOrangeFg
-hi! link csEscapedInterpolation         PaleOrangeFg
-hi! link csIsInterpolationFormat        PaleOrangeFg
-hi! link csIsInterpolationAlign         PaleOrangeFg
-hi! link csIsInterpolationFormatDel     PaleOrangeFg
-hi! link csIsInterpolationAlignDel      PaleOrangeFg
-hi! link csBraces                       BlizzardBlueFg
-hi! link csIface                        HoneysuckleFg
+hi! link csNew                          ScooterFg          " #31aed8
+hi! link csNewType                      ScooterFg          " #31aed8
+hi! link csParens                       WhiteFg            " #ffffff
+hi! link csRepeat                       PaleOrangeFg       " #ffaf47
+hi! link csConditional                  TurquoiseFg        " #43d3c1
+hi! link csQuote                        HoneysuckleFg      " #f9fb8c
+hi! link csString                       MoonGlowFg         " #FEFED0
+hi! link csLabel                        TurquoiseFg        " #43d3c1
+hi! link csComment                      MineShaftLtFg      " #3a3a3a
+hi! link csAttribute                    ForestGreenFg      " #47a628
+hi! link csLinq                         ChantillyFg        " #F7AFE7
+hi! link csException                    CeriseFg           " #E642A2
+hi! link csConstant                     MoonGlowFg         " #FEFED0
+hi! link csTodo                         PersimmonFg        " #FF615A
+hi! link csIsType                       PersimmonFg        " #FF615A
+hi! link csIsInterpolation              PaleOrangeFg       " #ffaf47
+hi! link csIsInterpolatedString         PaleOrangeFg       " #ffaf47
+hi! link csEscapedInterpolation         PaleOrangeFg       " #ffaf47
+hi! link csIsInterpolationFormat        PaleOrangeFg       " #ffaf47
+hi! link csIsInterpolationAlign         PaleOrangeFg       " #ffaf47
+hi! link csIsInterpolationFormatDel     PaleOrangeFg       " #ffaf47
+hi! link csIsInterpolationAlignDel      PaleOrangeFg       " #ffaf47
+hi! link csBraces                       BlizzardBlueFg     " #b4e3f2
+hi! link csIface                        HoneysuckleFg      " #f9fb8c
 
 " TypeScript
-hi! link foldBraces                     BlizzardBlueFg
-hi! link typescriptType                 PaleOrangeFg
-hi! link typescriptDecorators           HoneysuckleFg
-hi! link typescriptStringS              BlizzardBlueFg
-hi! link typescriptStringD              OlivineFg
-hi! link typescriptNull                 PersimmonFg
+hi! link foldBraces                     BlizzardBlueFg     " #b4e3f2
+hi! link typescriptType                 PaleOrangeFg       " #ffaf47
+hi! link typescriptDecorators           HoneysuckleFg      " #f9fb8c
+hi! link typescriptStringS              BlizzardBlueFg     " #b4e3f2
+hi! link typescriptStringD              OlivineFg          " #94c470
+hi! link typescriptNull                 PersimmonFg        " #FF615A
 
 " JSON
-hi! link jsonKeyword                    ScooterFg
-hi! link jsonString                     PaleYellow
+hi! link jsonKeyword                    ScooterFg          " #31aed8
+hi! link jsonString                     MoonGlowFg         " #FEFED0
 
 " Bash/Zsh/Shell
-hi! link shEcho                         BlizzardBlueFg
+hi! link shEcho                         BlizzardBlueFg     " #b4e3f2
