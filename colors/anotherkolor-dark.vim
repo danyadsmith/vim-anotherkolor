@@ -19,8 +19,10 @@ let g:colors_name = "anotherkolor-dark"
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Available Highlight Color Keywords:
+" Theme Colors:
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Highlight Color Keywords
+"
 " Black, Gray, Grey, LightGray, LightGrey, DarkGray, DarkGrey, White
 " Red, LightRed, DarkRed, Yellow, LightYellow, DarkYellow, Brown
 " Green, LightGreen, DarkGreen, Cyan, LightCyan, DarkCyan
@@ -30,7 +32,7 @@ let g:colors_name = "anotherkolor-dark"
 " Foreground Colors:
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Color Wheel Colors
+" Color Wheel Foreground Colors
 
 hi RedFg          ctermfg=NONE guifg=#ff0000 
 hi VermilionFg    ctermfg=NONE guifg=#ff4000 
@@ -45,8 +47,9 @@ hi VioletFg       ctermfg=NONE guifg=#5533e6
 hi PurpleFg       ctermfg=NONE guifg=#aa66cc 
 hi MagentaFg      ctermfg=NONE guifg=#ff0080 
 
-" Theme Colors
+" Theme Foreground Colors
 
+hi DarkRedFg      ctermfg=NONE guifg=#d70000
 hi PersimmonFg    ctermfg=NONE guifg=#FF615A 
 hi PaleOrangeFg   ctermfg=NONE guifg=#ffaf47 
 hi GorseFg        ctermfg=NONE guifg=#FFF654
@@ -69,7 +72,7 @@ hi TanFg          ctermfg=NONE guifg=#DAD5bf
 hi SisalFg        ctermfg=NONE guifg=#DAD6C3
 hi EcruWhiteFg    ctermfg=NONE guifg=#F5F5E5
 
-" Grayscale Colors
+" Grayscale Foreground Colors
 
 hi WhiteFg        ctermfg=231  guifg=#ffffff
 hi AlabasterFg    ctermfg=255  guifg=#f8f8f8
@@ -80,7 +83,8 @@ hi GrayFg         ctermfg=NONE guifg=#888888
 hi DoveFg         ctermfg=242  guifg=#666666
 hi TundoraLightFg ctermfg=240  guifg=#4A4A4A
 hi TundoraFg      ctermfg=240  guifg=#444444
-hi MutedFg        ctermfg=239  guifg=#3a3a3a 
+hi LightMutedFg   ctermfg=180  guifg=#4c4c4c
+hi DarkMutedFg    ctermfg=239  guifg=#3a3a3a 
 hi MineShaftLtFg  ctermfg=238  guifg=#3d3d3d
 hi MineShaftFg    ctermfg=238  guifg=#262626 
 hi CodFg          ctermfg=236  guifg=#222222
@@ -91,6 +95,9 @@ hi NoFg           ctermfg=NONE guifg=NONE
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Background Colors
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Color Wheel Background Colors
+"
 hi RedBg          ctermbg=NONE guibg=#ff0000 
 hi VermilionBg    ctermbg=NONE guibg=#ff4000 
 hi OrangeBg       ctermbg=NONE guibg=#ff8000 
@@ -104,12 +111,23 @@ hi VioletBg       ctermbg=NONE guibg=#5533e6
 hi PurpleBg       ctermbg=NONE guibg=#aa66cc 
 hi MagentaBg      ctermbg=NONE guibg=#ff0080 
 
+" Theme Background Colors
+
+hi ForestGreenBg  ctermbg=NONE guibg=#47a628 
+hi ScooterBg      ctermbg=NONE guibg=#31aed8 
+hi CeriseBg       ctermbg=NONE guibg=#E642A2 
+hi PinkSalmonBg   ctermfg=NONE guifg=#ff87af 
 hi GorseBg        ctermbg=NONE guibg=#FFF654
 hi MoonGlowBg     ctermbg=NONE guibg=#FEFED0 
 hi PampasBg       ctermbg=NONE guibg=#F0EEE5
 hi TanBg          ctermbg=NONE guibg=#DAD5bf 
 hi SisalBg        ctermbg=NONE guibg=#DAD6C3
+hi ThistleBg      ctermbg=NONE guibg=#CDCAAF
 hi EcruWhiteBg    ctermbg=NONE guibg=#F5F5E5
+hi AthsSpecialBg  ctermbg=NONE guibg=#EEE8D4
+hi LightBg        ctermbg=NONE guibg=#FCFAF6
+
+" Grayscale Background Colors
 
 hi WhiteBg        ctermbg=231  guibg=#ffffff
 hi AlabasterBg    ctermbg=255  guibg=#f8f8f8
@@ -136,7 +154,7 @@ hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#
 
 hi Normal           ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1d1d1d gui=NONE
 hi LineNr           ctermfg=White ctermbg=Black cterm=NONE guifg=#444444 guibg=#222222 gui=NONE
-hi CursorLineNr     ctermfg=244   ctermbg=211   cterm=NONE guifg=#888888 guibg=#ff87af gui=NONE
+hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#AFDF00 gui=NONE
 hi CursorColumn     ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#3a3a3a gui=NONE
 hi ColorColumn      ctermfg=NONE  ctermbg=Black cterm=NONE guifg=NONE    guibg=#222222 gui=NONE
 
@@ -148,8 +166,8 @@ hi! link VertSplit                      ScorpionFg         " #5d5d5d
 hi! link MatchParen                     ScooterFg          " #31aed8
 hi! link StatusLine                     GalleryFg          " #eeeeee 
 hi! link StatusLine                     ScorpionBg         " #5d5d5d
-hi! link StatusLineNC                   GalleryFg          " #eeeeee 
-hi! link StatusLineNC                   ScorpionBg         " #5d5d5d
+hi! link StatusLineNC                   DarkMutedFg        " #3a3a3a
+hi! link StatusLineNC                   CodBg              " #222222
 hi! link Pmenu                          NoFg
 hi! link PmenuSel                       MineShaftBg        " #262626
 hi! link IncSearch                      CodFg              " #222222
@@ -164,13 +182,13 @@ hi! link DiffChange                     OrangeFg           " #ff8000
 hi! link DiffText                       ScooterFg          " #31aed8
 hi! link ErrorMsg                       RedFg              " #ff0000
 hi! link WarningMsg                     AmberFg            " #ffc000
-hi! link NonText                        MutedFg            " #3a3a3a
-hi! link SpecialKey                     MutedFg            " #3a3a3a
+hi! link NonText                        DarkMutedFg        " #3a3a3a
+hi! link SpecialKey                     DarkMutedFg        " #3a3a3a
 hi! link Title                          GalleryFg          " #eeeeee
 
 hi! link Boolean                        DeepPurpleFg       " #94539a 
 hi! link Character                      NoHighlight
-hi! link Comment                        MutedFg            " #3a3a3a 
+hi! link Comment                        DarkMutedFg        " #3a3a3a 
 hi! link Conditional                    ScooterFg          " #31aed8
 hi! link Constant                       NoHighlight
 hi! link Define                         ScooterFg          " #31aed8
@@ -305,7 +323,7 @@ hi! link GitGutterChangeDelete          CodBg              " #222222
 hi! link GitGutterChangeDelete          CeriseFg           " #E642A2
 
 " Markdown
-hi! link markdownHeadingDelimiter       MutedBg            " #3a3a3a
+hi! link markdownHeadingDelimiter       MutedFg            " #3a3a3a
 hi! link markdownH1                     WhiteFg            " #ffffff
 hi! link markdownH2                     ScooterFg          " #31aed8
 hi! link markdownH3                     ScooterFg          " #31aed8
@@ -357,15 +375,16 @@ hi! link xmlEndTag                      ScooterFg          " #31aed8
 " VimScript
 hi! link vimHiGroup                     BlizzardBlueFg     " #b4e3f2
 hi! link vimHiTerm                      ChantillyFg        " #F7AFE7 
-hi! link vimHiCtermFgBg                 PurpleFg           " #aa66cc 
-hi! link vimHiGuiFgBg                   PurpleFg           " #aa66cc 
+hi! link vimHiCtermFgBg                 ScooterFg          " #31aed8
+hi! link vimHiGuiFgBg                   ScooterFg          " #31aed8
 hi! link vimHiGuiRgb                    WhiteFg            " #ffffff
-hi! link vimLineComment                 MutedFg            " #BBA981
+hi! link vimLineComment                 DarkMutedFg        " #BBA981
 hi! link vimCommentTitle                DoveFg             " #666666
 hi! link vimMapMod                      ScooterFg          " #31aed8
 hi! link vimMapModKey                   ScooterFg          " #31aed8
 hi! link vimBracket                     ScooterFg          " #31aed8
 hi! link vimNotation                    ScooterFg          " #31aed8
+hi! link vimFgBgAttrib                  WhiteFg            " #ffffff 
 
 " C#
 hi! link csClassType                    HoneysuckleFg      " #f9fb8c
