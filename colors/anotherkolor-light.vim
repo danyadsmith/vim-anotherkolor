@@ -9,6 +9,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 set background=light
+set fillchars+=vert:\   " Preserve whitespace after slash 
 highlight clear
 
 if exists("syntax_on")
@@ -150,20 +151,18 @@ hi NoBg           ctermbg=NONE guibg=NONE
 hi MutedHighlight   ctermfg=NONE  ctermbg=236   cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
 hi SearchHighlight  ctermfg=236   ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#FFF654 gui=NONE
 hi DarkNormal       ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1a1a1a gui=NONE 
-hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#FCFAF6 gui=NONE 
+hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#5c3b0c guibg=#FCFAF6 gui=NONE 
 
-hi Normal           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#FCFAF6 gui=NONE 
-hi LineNr           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#000000 guibg=#EEE8D4 gui=NONE
+hi Normal           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#5c3b0c guibg=#FCFAF6 gui=NONE 
+hi LineNr           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#BBA981 guibg=#EEE8D4 gui=NONE
 hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#AFDF00 gui=NONE
 hi CursorColumn     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
 hi ColorColumn      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
 
 hi! link Cursor                         CharcoalBg         " #141414
-hi! link Cursor                         GalleryFg          " #eeeeee
 hi! link Visual                         MutedBg            " #BBA981
 hi! link CursorLine                     LightBg            " #FCFAF6
 hi! link VertSplit                      ThistleBg          " #CDCAAF
-hi! link VertSplit                      ThistleFg          " #CDCAAF
 hi! link MatchParen                     ScooterFg          " #31aed8
 hi! link StatusLine                     GalleryFg          " #eeeeee 
 hi! link StatusLine                     ScorpionBg         " #5d5d5d
@@ -225,7 +224,7 @@ hi! link LocalVariable                  NoFg
 hi! link Field                          CeriseFg           " #E642A2
 hi! link Method                         ForestGreenFg      " #47a628
 hi! link Property                       BlueFg             " #3333ff
-"
+
 " Ruby
 hi! link rubyClass                      HoneysuckleFg      " #f9fb8c
 hi! link rubyFunction                   HoneysuckleFg      " #f9fb8c
@@ -374,14 +373,20 @@ hi! link vimHiGroup                     BrownFg            " #5c3b0c
 hi! link vimHiTerm                      TurquoiseFg        " #43d3c1 
 hi! link vimHiCtermFgBg                 ScooterFg          " #31aed8
 hi! link vimHiGuiFgBg                   ScooterFg          " #31aed8
+hi! link vimHiKeyList                   ScooterFg          " #31aed8
 hi! link vimHiGuiRgb                    BlackFg            " #000000
 hi! link vimLineComment                 DarkMutedFg        " #BBA981
+hi! link vimContinue                    DarkMutedFg        " #BBA981
 hi! link vimCommentTitle                DoveFg             " #666666
 hi! link vimMapMod                      ScooterFg          " #31aed8
 hi! link vimMapModKey                   ScooterFg          " #31aed8
 hi! link vimBracket                     ScooterFg          " #31aed8
 hi! link vimNotation                    ScooterFg          " #31aed8
 hi! link vimFgBgAttrib                  BrownFg            " #5c3b0c
+hi! link vimFunction                    PurpleFg           " #aa66cc
+hi! link vimParenSep                    ScooterFg          " #31aed8
+hi! link vimOperParen                   ScooterFg          " #31aed8
+hi! link vimSep                         ScooterFg          " #31aed8
 
 " C#
 hi! link csClassType                    HoneysuckleFg      " #f9fb8c

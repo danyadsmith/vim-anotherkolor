@@ -9,6 +9,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 set background=dark
+set fillchars+=vert:\   " Preserve whitespace after slash 
 highlight clear
 
 if exists("syntax_on")
@@ -162,7 +163,6 @@ hi! link Cursor                         CodFg              " #222222
 hi! link Visual                         MutedBg            " #3a3a3a
 hi! link CursorLine                     CodBg              " #222222
 hi! link VertSplit                      ScorpionBg         " #5d5d5d
-hi! link VertSplit                      ScorpionFg         " #5d5d5d
 hi! link MatchParen                     ScooterFg          " #31aed8
 hi! link StatusLine                     GalleryFg          " #eeeeee 
 hi! link StatusLine                     ScorpionBg         " #5d5d5d
@@ -224,7 +224,7 @@ hi! link LocalVariable                  NoFg
 hi! link Field                          CeriseFg           " #E642A2
 hi! link Method                         ForestGreenFg      " #47a628
 hi! link Property                       BlizzardBlueFg     " #b4e3f2
-"
+
 " Ruby
 hi! link rubyClass                      HoneysuckleFg      " #f9fb8c
 hi! link rubyFunction                   HoneysuckleFg      " #f9fb8c
@@ -377,14 +377,20 @@ hi! link vimHiGroup                     BlizzardBlueFg     " #b4e3f2
 hi! link vimHiTerm                      ChantillyFg        " #F7AFE7 
 hi! link vimHiCtermFgBg                 ScooterFg          " #31aed8
 hi! link vimHiGuiFgBg                   ScooterFg          " #31aed8
+hi! link vimHiKeyList                   ScooterFg          " #31aed8
 hi! link vimHiGuiRgb                    WhiteFg            " #ffffff
 hi! link vimLineComment                 DarkMutedFg        " #BBA981
+hi! link vimContinue                    DarkMutedFg        " #BBA981
 hi! link vimCommentTitle                DoveFg             " #666666
 hi! link vimMapMod                      ScooterFg          " #31aed8
 hi! link vimMapModKey                   ScooterFg          " #31aed8
 hi! link vimBracket                     ScooterFg          " #31aed8
 hi! link vimNotation                    ScooterFg          " #31aed8
 hi! link vimFgBgAttrib                  WhiteFg            " #ffffff 
+hi! link vimFunction                    PurpleFg           " #aa66cc
+hi! link vimParenSep                    ScooterFg          " #31aed8
+hi! link vimOperParen                   ScooterFg          " #31aed8
+hi! link vimSep                         ScooterFg          " #31aed8
 
 " C#
 hi! link csClassType                    HoneysuckleFg      " #f9fb8c
