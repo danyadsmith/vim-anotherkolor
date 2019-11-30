@@ -312,15 +312,11 @@ hi! link cssCommonAttr                  ScooterFg          " #31aed8
 hi! link cssBraces                      NoFg
 
 " GitGutter
-hi! link SignColumn                     CodBg              " #222222
-hi! link GitGutterAdd                   CodBg              " #222222
-hi! link GitGutterAdd                   ForestGreenFg      " #47a628
-hi! link GitGutterDelete                CodBg              " #222222
-hi! link GitGutterDelete                RedFg              " #ff0000
-hi! link GitGutterChange                CodBg              " #222222
-hi! link GitGutterChange                ScooterFg          " #31aed8
-hi! link GitGutterChangeDelete          CodBg              " #222222
-hi! link GitGutterChangeDelete          CeriseFg           " #E642A2
+hi SignColumn             ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
+hi GitGutterAdd           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#47a628 guibg=#EEE8D4 gui=NONE
+hi GitGutterDelete        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#d70000 guibg=#EEE8D4 gui=NONE
+hi GitGutterChange        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#3333ff guibg=#EEE8D4 gui=NONE
+hi GitGutterChangeDelete  ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#e642a2 guibg=#EEE8D4 gui=NONE
 
 " Markdown
 hi! link markdownHeadingDelimiter       MutedFg            " #3a3a3a
@@ -387,7 +383,9 @@ hi! link vimMapModKey                   ScooterFg          " #31aed8
 hi! link vimBracket                     ScooterFg          " #31aed8
 hi! link vimNotation                    ScooterFg          " #31aed8
 hi! link vimFgBgAttrib                  WhiteFg            " #ffffff 
-hi! link vimFunction                    PurpleFg           " #aa66cc
+hi! link vimFunction                    HoneysuckleFg      " #f9fb8c
+hi! link vimFunc                        ForestGreenFg      " #47a628
+hi! link vimUserFunc                    ForestGreenFg      " #47a628
 hi! link vimParenSep                    ScooterFg          " #31aed8
 hi! link vimOperParen                   ScooterFg          " #31aed8
 hi! link vimSep                         ScooterFg          " #31aed8

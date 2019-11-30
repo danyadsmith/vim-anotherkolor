@@ -383,7 +383,9 @@ hi! link vimMapModKey                   ScooterFg          " #31aed8
 hi! link vimBracket                     ScooterFg          " #31aed8
 hi! link vimNotation                    ScooterFg          " #31aed8
 hi! link vimFgBgAttrib                  BrownFg            " #5c3b0c
-hi! link vimFunction                    PurpleFg           " #aa66cc
+hi! link vimFunction                    AmberFg            " #ffc000
+hi! link vimFunc                        ForestGreenFg      " #47a628
+hi! link vimUserFunc                    ForestGreenFg      " #47a628
 hi! link vimParenSep                    ScooterFg          " #31aed8
 hi! link vimOperParen                   ScooterFg          " #31aed8
 hi! link vimSep                         ScooterFg          " #31aed8
