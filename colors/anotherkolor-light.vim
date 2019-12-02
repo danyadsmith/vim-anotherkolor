@@ -155,7 +155,7 @@ hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#5c3b0c guibg=#
 
 hi Normal           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#5c3b0c guibg=#FCFAF6 gui=NONE 
 hi LineNr           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#BBA981 guibg=#EEE8D4 gui=NONE
-hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#AFDF00 gui=NONE
+hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#31aed8 gui=NONE
 hi CursorColumn     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
 hi ColorColumn      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
 

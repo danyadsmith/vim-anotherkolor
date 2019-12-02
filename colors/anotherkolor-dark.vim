@@ -155,7 +155,7 @@ hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#
 
 hi Normal           ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1d1d1d gui=NONE
 hi LineNr           ctermfg=White ctermbg=Black cterm=NONE guifg=#444444 guibg=#222222 gui=NONE
-hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#AFDF00 gui=NONE
+hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#31aed8 gui=NONE
 hi CursorColumn     ctermfg=NONE  ctermbg=237   cterm=NONE guifg=NONE    guibg=#3a3a3a gui=NONE
 hi ColorColumn      ctermfg=NONE  ctermbg=Black cterm=NONE guifg=NONE    guibg=#222222 gui=NONE
 
@@ -312,11 +312,11 @@ hi! link cssCommonAttr                  ScooterFg          " #31aed8
 hi! link cssBraces                      NoFg
 
 " GitGutter
-hi SignColumn             ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
-hi GitGutterAdd           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#47a628 guibg=#EEE8D4 gui=NONE
-hi GitGutterDelete        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#d70000 guibg=#EEE8D4 gui=NONE
-hi GitGutterChange        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#3333ff guibg=#EEE8D4 gui=NONE
-hi GitGutterChangeDelete  ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#e642a2 guibg=#EEE8D4 gui=NONE
+hi SignColumn             ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#222222 gui=NONE
+hi GitGutterAdd           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#47a628 guibg=#222222 gui=NONE
+hi GitGutterDelete        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#d70000 guibg=#222222 gui=NONE
+hi GitGutterChange        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#31aed8 guibg=#222222 gui=NONE
+hi GitGutterChangeDelete  ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#e642a2 guibg=#222222 gui=NONE
 
 " Markdown
 hi! link markdownHeadingDelimiter       MutedFg            " #3a3a3a
