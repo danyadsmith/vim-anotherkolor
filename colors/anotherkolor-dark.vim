@@ -53,6 +53,7 @@ hi MagentaFg      ctermfg=NONE guifg=#ff0080
 hi DarkRedFg      ctermfg=NONE guifg=#d70000
 hi PersimmonFg    ctermfg=NONE guifg=#FF615A 
 hi PaleOrangeFg   ctermfg=NONE guifg=#ffaf47 
+hi DarkAmberFg    ctermfg=NONE guifg=#dcA706
 hi GorseFg        ctermfg=NONE guifg=#FFF654
 hi HoneysuckleFg  ctermfg=NONE guifg=#f9fb8c 
 hi MoonGlowFg     ctermfg=NONE guifg=#FEFED0 
@@ -143,7 +144,7 @@ hi MutedBg        ctermbg=239  guibg=#3a3a3a
 hi MineShaftBg    ctermbg=238  guibg=#262626 
 hi CodBg          ctermbg=236  guibg=#222222
 hi CharcoalBg     ctermbg=233  guibg=#141414
-hi CodGrayBg      ctermbg=234  guibg=#1d1d1d
+hi CodGrayBg      ctermbg=234  guibg=#1a1a1a
 hi GrayBg         ctermbg=NONE guibg=#888888
 hi BlackBg        ctermbg=000  guibg=#000000
 hi NoBg           ctermbg=NONE guibg=NONE    
@@ -161,7 +162,7 @@ hi ColorColumn      ctermfg=NONE  ctermbg=Black cterm=NONE guifg=NONE    guibg=#
 
 hi! link Cursor                         CodFg              " #222222 
 hi! link Visual                         MutedBg            " #3a3a3a
-hi! link CursorLine                     CodBg              " #222222
+hi! link CursorLine                     CodGrayBg              " #1a1a1a
 hi! link VertSplit                      ScorpionBg         " #5d5d5d
 hi! link MatchParen                     ScooterFg          " #31aed8
 hi! link StatusLine                     GalleryFg          " #eeeeee 

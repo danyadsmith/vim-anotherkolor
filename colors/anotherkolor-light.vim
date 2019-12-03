@@ -53,6 +53,7 @@ hi MagentaFg      ctermfg=NONE guifg=#ff0080
 hi DarkRedFg      ctermfg=NONE guifg=#d70000
 hi PersimmonFg    ctermfg=NONE guifg=#FF615A 
 hi PaleOrangeFg   ctermfg=NONE guifg=#ffaf47 
+hi DarkAmberFg    ctermfg=NONE guifg=#dcA706
 hi GorseFg        ctermfg=NONE guifg=#FFF654
 hi HoneysuckleFg  ctermfg=NONE guifg=#f9fb8c 
 hi MoonGlowFg     ctermfg=NONE guifg=#FEFED0 
@@ -181,9 +182,9 @@ hi! link DiffDelete                     RedFg              " #ff0000
 hi! link DiffChange                     OrangeFg           " #ff8000
 hi! link DiffText                       ScooterFg          " #31aed8
 hi! link ErrorMsg                       RedFg              " #ff0000
-hi! link WarningMsg                     AmberFg            " #ffc000
-hi! link NonText                        LightMutedFg       " #DEC999
-hi! link SpecialKey                     LightMutedFg       " #DEC999
+hi! link WarningMsg                     DarkAmberFg        " #dcA706
+hi! link NonText                        LightMutedFg       " #deC999
+hi! link SpecialKey                     LightMutedFg       " #deC999
 hi! link Title                          GalleryFg          " #eeeeee
 
 hi! link Boolean                        DeepPurpleFg       " #94539a 
