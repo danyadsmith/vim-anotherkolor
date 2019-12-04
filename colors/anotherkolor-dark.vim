@@ -162,7 +162,7 @@ hi ColorColumn      ctermfg=NONE  ctermbg=Black cterm=NONE guifg=NONE    guibg=#
 
 hi! link Cursor                         CodFg              " #222222 
 hi! link Visual                         MutedBg            " #3a3a3a
-hi! link CursorLine                     CodGrayBg              " #1a1a1a
+hi! link CursorLine                     CodGrayBg          " #1a1a1a
 hi! link VertSplit                      ScorpionBg         " #5d5d5d
 hi! link MatchParen                     ScooterFg          " #31aed8
 hi! link StatusLine                     GalleryFg          " #eeeeee 
