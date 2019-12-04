@@ -328,7 +328,7 @@ hi! link markdownH4                     ScooterFg          " #31aed8
 hi! link markdownH5                     ScooterFg          " #31aed8
 hi! link markdownH6                     ScooterFg          " #31aed8
 hi! link markdownBold                   ScooterFg          " #31aed8
-hi! link markdownItalic                 BlueFg             " #3333ff
+hi! link markdownItalic                 ChantillyFg        " #F7AFE7
 hi! link markdownCodeDelimiter          OlivineFg          " #94c470
 hi! link markdownCodeBlock              OlivineFg          " #94c470
 hi! link markdownCode                   OlivineFg          " #94c470
