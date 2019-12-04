@@ -391,6 +391,13 @@ hi! link vimParenSep                    ScooterFg          " #31aed8
 hi! link vimOperParen                   ScooterFg          " #31aed8
 hi! link vimSep                         ScooterFg          " #31aed8
 
+" Vim Help
+hi! link helpHyperTextEntry             SailFg             " #A7E4F4
+hi! link helpUrl                        PaleOrangeFg       " #ffaf47
+hi! link helpExample                    TurquoiseFg        " #43d3c1
+hi! link helpSectionDelim               LightMutedFg       " #4c4c4c
+hi! link helpSpecial                    PersimmonFg        " #FF615A
+
 " C#
 hi! link csClassType                    HoneysuckleFg      " #f9fb8c
 hi! link csClass                        HoneysuckleFg      " #f9fb8c
