@@ -392,11 +392,11 @@ hi! link vimOperParen                   ScooterFg          " #31aed8
 hi! link vimSep                         ScooterFg          " #31aed8
 
 " Vim Help
-hi! link helpHyperTextEntry             DarkAmberFg        " #dcA706
-hi! link helpUrl                        PaleOrangeFg       " #ffaf47
+hi! link helpHyperTextEntry             PaleOrangeFg       " #ffaf47
+hi! link helpUrl                        ForestGreenFg      " #47a628
 hi! link helpExample                    TurquoiseFg        " #43d3c1
-hi! link helpSectionDelim               LightMutedFg       " #DEC999
-hi! link helpSpecial                    PersimmonFg        " #FF615A
+hi! link helpSectionDelim               LightMutedFg       " #dec999
+hi! link helpSpecial                    VioletFg           " #5533e6
 
 " C#
 hi! link csClassType                    HoneysuckleFg      " #f9fb8c
