@@ -154,15 +154,15 @@ hi SearchHighlight  ctermfg=236   ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#
 hi DarkNormal       ctermfg=White ctermbg=Black cterm=NONE guifg=#dddddd guibg=#1a1a1a gui=NONE
 hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#5c3b0c guibg=#FCFAF6 gui=NONE
 
-hi Normal           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#5c3b0c guibg=#FCFAF6 gui=NONE
+hi Normal           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#6c6c6c guibg=#fcfaf6 gui=NONE 
 hi LineNr           ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#BBA981 guibg=#EEE8D4 gui=NONE
+hi CursorLine       ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#FCFAF6 gui=NONE
 hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#31aed8 gui=NONE
 hi CursorColumn     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
 hi ColorColumn      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#EEE8D4 gui=NONE
 
 hi! link Cursor                         CharcoalBg         " #141414
 hi! link Visual                         MutedBg            " #BBA981
-hi! link CursorLine                     LightBg            " #FCFAF6
 hi! link VertSplit                      ThistleBg          " #CDCAAF
 hi! link MatchParen                     ScooterFg          " #31aed8
 hi! link StatusLine                     GalleryFg          " #eeeeee
@@ -320,15 +320,15 @@ hi GitGutterChange        ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#3333ff g
 hi GitGutterChangeDelete  ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#e642a2 guibg=#EEE8D4 gui=NONE
 
 " Markdown
-hi! link markdownHeadingDelimiter       MutedFg            " #BBA981
-hi! link markdownH1                     BlackFg            " #000000
+hi! link markdownHeadingDelimiter       TanFg              " #DAD5bf
+hi! link markdownH1                     BrownFg            " #5c3b0c
 hi! link markdownH2                     ScooterFg          " #31aed8
 hi! link markdownH3                     ScooterFg          " #31aed8
 hi! link markdownH4                     ScooterFg          " #31aed8
 hi! link markdownH5                     ScooterFg          " #31aed8
 hi! link markdownH6                     ScooterFg          " #31aed8
 hi! link markdownBold                   ScooterFg          " #31aed8
-hi! link markdownItalic                 BlueFg             " #3333ff
+hi! link markdownItalic                 ChantillyFg        " #F7AFE7
 hi! link markdownCodeDelimiter          OlivineFg          " #94c470
 hi! link markdownCodeBlock              OlivineFg          " #94c470
 hi! link markdownCode                   OlivineFg          " #94c470
@@ -338,9 +338,10 @@ hi! link markdownLink                   TurquoiseFg        " #43d3c1
 hi! link markdownUrl                    NoFg
 hi! link markdownListMarker             ScooterFg          " #31aed8
 hi! link markdownBlockquote             ScooterFg          " #31aed8
-hi! link mmdTable                       PaleOrangeFg       " #ffaf47
-hi! link mmdTableHeader                 PaleOrangeFg       " #ffaf47
-hi! link mmdTableDelimiter              PaleOrangeFg       " #ffaf47
+hi! link mmdTable                       DoveFg             " #666666
+hi! link mmdTableHeader                 ScooterFg          " #31aed8
+hi! link mmdTableDelimiter              BlizzardBlueFg     " #b4e3f2
+hi! link mmdTableHeadDelimiter          BlizzardBlueFg     " #b4e3f2
 
 " CriticMarkup
 "
@@ -349,10 +350,10 @@ hi! link mdCriticAddition               ForestGreenFg      " #47a628
 hi! link mdCriticAddStartMark           ForestGreenFg      " #47a628
 hi! link mdCriticAddEndMark             ForestGreenFg      " #47a628
 hi! link mdCriticDel                    RedFg              " #ff0000
-hi! link mdCriticDeletion               TundoraLightFg     " #4A4A4A
+hi! link mdCriticDeletion               TanFg              " #DAD5bf
 hi! link mdCriticDelStartMark           RedFg              " #ff0000
 hi! link mdCriticDelEndMark             RedFg              " #ff0000
-hi! link mdCriticSubRemove              TundoraLightFg     " #4A4A4A
+hi! link mdCriticSubRemove              TanFg              " #DAD5bf
 hi! link mdCriticSubStartMark           OrangeFg           " #ff8000
 hi! link mdCriticSubstitute             OrangeFg           " #ff8000
 hi! link mdCriticSubTransMark           OrangeFg           " #ff8000
@@ -378,7 +379,9 @@ hi! link vimHiKeyList                   ScooterFg          " #31aed8
 hi! link vimHiGuiRgb                    BlackFg            " #000000
 hi! link vimLineComment                 DarkMutedFg        " #BBA981
 hi! link vimContinue                    DarkMutedFg        " #BBA981
-hi! link vimCommentTitle                DoveFg             " #666666
+hi! link vimComment                     LightMutedFg       " #DEC999
+hi! link vimLineComment                 LightMutedFg       " #DEC999
+hi! link vimCommentTitle                DarkMutedFg        " #BBA981
 hi! link vimMapMod                      ScooterFg          " #31aed8
 hi! link vimMapModKey                   ScooterFg          " #31aed8
 hi! link vimBracket                     ScooterFg          " #31aed8
@@ -390,6 +393,13 @@ hi! link vimUserFunc                    ForestGreenFg      " #47a628
 hi! link vimParenSep                    ScooterFg          " #31aed8
 hi! link vimOperParen                   ScooterFg          " #31aed8
 hi! link vimSep                         ScooterFg          " #31aed8
+
+" Vim Help
+hi! link helpHyperTextEntry             PaleOrangeFg       " #ffaf47
+hi! link helpUrl                        ForestGreenFg      " #47a628
+hi! link helpExample                    TurquoiseFg        " #43d3c1
+hi! link helpSectionDelim               LightMutedFg       " #dec999
+hi! link helpSpecial                    VioletFg           " #5533e6
 
 " C#
 hi! link csClassType                    HoneysuckleFg      " #f9fb8c
