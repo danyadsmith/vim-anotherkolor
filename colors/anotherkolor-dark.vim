@@ -35,18 +35,18 @@ let g:colors_name = "anotherkolor-dark"
 
 " Color Wheel Foreground Colors
 
-hi RedFg          ctermfg=NONE guifg=#ff0000 
-hi VermilionFg    ctermfg=NONE guifg=#ff4000 
-hi OrangeFg       ctermfg=NONE guifg=#ff8000 
-hi AmberFg        ctermfg=NONE guifg=#ffc000 
-hi YellowFg       ctermfg=NONE guifg=#ffff00 
-hi ChartreuseFg   ctermfg=NONE guifg=#99eb00 
-hi GreenFg        ctermfg=NONE guifg=#00cc00 
-hi ViridianFg     ctermfg=NONE guifg=#00ad91 
-hi BlueFg         ctermfg=NONE guifg=#3333ff 
-hi VioletFg       ctermfg=NONE guifg=#5533e6 
-hi PurpleFg       ctermfg=NONE guifg=#aa66cc 
-hi MagentaFg      ctermfg=NONE guifg=#ff0080 
+hi RedFg          ctermfg=NONE guifg=#f22636 
+hi VermilionFg    ctermfg=NONE guifg=#ff4714 
+hi OrangeFg       ctermfg=NONE guifg=#ff9015 
+hi AmberFg        ctermfg=NONE guifg=#ffc500 
+hi YellowFg       ctermfg=NONE guifg=#f9e446 
+hi ChartreuseFg   ctermfg=NONE guifg=#93d500 
+hi GreenFg        ctermfg=NONE guifg=#00bc71 
+hi ViridianFg     ctermfg=NONE guifg=#1dc9d2 
+hi BlueFg         ctermfg=NONE guifg=#2899d5 
+hi VioletFg       ctermfg=NONE guifg=#0062a6 
+hi PurpleFg       ctermfg=NONE guifg=#773cb3 
+hi MagentaFg      ctermfg=NONE guifg=#d73bb3 
 
 " Theme Foreground Colors
 
@@ -94,24 +94,31 @@ hi CharcoalFg     ctermfg=233  guifg=#141414
 hi BlackFg        ctermfg=000  guifg=#000000
 hi NoFg           ctermfg=NONE guifg=NONE    
 
+" Foreground Colors with Custom Formatting
+
+hi Strikethrough           ctermfg=NONE guifg=#f22636 gui=strikethrough
+hi Bold                    ctermfg=NONE guifg=#31aed8 gui=bold
+hi Italic                  ctermfg=NONE guifg=#b4e3f2 gui=italic
+hi Underline               ctermfg=NONE guifg=#ffffff gui=underline
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Background Colors
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Color Wheel Background Colors
 "
-hi RedBg          ctermbg=NONE guibg=#ff0000 
-hi VermilionBg    ctermbg=NONE guibg=#ff4000 
-hi OrangeBg       ctermbg=NONE guibg=#ff8000 
-hi AmberBg        ctermbg=NONE guibg=#ffc000 
-hi YellowBg       ctermbg=NONE guibg=#ffff00 
-hi ChartreuseBg   ctermbg=NONE guibg=#99eb00 
-hi GreenBg        ctermbg=NONE guibg=#00cc00 
-hi ViridianBg     ctermbg=NONE guibg=#00ad91 
-hi BlueBg         ctermbg=NONE guibg=#3333ff 
-hi VioletBg       ctermbg=NONE guibg=#5533e6 
-hi PurpleBg       ctermbg=NONE guibg=#aa66cc 
-hi MagentaBg      ctermbg=NONE guibg=#ff0080 
+hi RedBg          ctermbg=NONE guibg=#F22636
+hi VermilionBg    ctermbg=NONE guibg=#ff4714 
+hi OrangeBg       ctermbg=NONE guibg=#ff9015 
+hi AmberBg        ctermbg=NONE guibg=#ffc500 
+hi YellowBg       ctermbg=NONE guibg=#f9e446
+hi ChartreuseBg   ctermbg=NONE guibg=#93d500
+hi GreenBg        ctermbg=NONE guibg=#00bc71
+hi ViridianBg     ctermbg=NONE guibg=#1dc9d2
+hi BlueBg         ctermbg=NONE guibg=#2899d5
+hi IndigoBg       ctermbg=NONE guibg=#0062a6
+hi VioletBg       ctermbg=NONE guibg=#773cbe
+hi MagentaBg      ctermbg=NONE guibg=#d73bb3
 
 " Theme Background Colors
 
@@ -267,10 +274,16 @@ hi! link htmlSpecialChar                HoneysuckleFg      " #f9fb8c
 hi! link htmlString                     MoonGlowFg         " #FEFED0
 hi! link htmlSpecialTagName             ForestGreenFg      " #47a628
 hi! link htmlTitle                      NoFg
-hi! link htmlH1                         WhiteFg            " #ffffff
+hi! link htmlH1                         Bold               " #ffffff
+hi! link htmlH2                         ScooterFg          " #31aed8
+hi! link htmlH3                         LavenderFg         " #D6B5F1 
+hi! link htmlH4                         BlizzardBlueFg     " #b4e3f2
 hi! link htmlLink                       NoFg
 hi! link htmlComment                    MutedBg            " #3a3a3a
 hi! link htmlScriptTag                  ScooterFg          " #31aed8
+hi! link htmlBlockquote                 ScooterFg          " #b4e3f2
+hi! link htmlBold                       Bold               " #b4e3f2
+hi! link htmlItalic                     Italic             " #ffffff
 
 " JavaScript
 hi! link jsFunction                     ScooterFg          " #31aed8
@@ -327,11 +340,14 @@ hi! link markdownH3                     ScooterFg          " #31aed8
 hi! link markdownH4                     ScooterFg          " #31aed8
 hi! link markdownH5                     ScooterFg          " #31aed8
 hi! link markdownH6                     ScooterFg          " #31aed8
-hi! link markdownBold                   ScooterFg          " #31aed8
+hi! link markdownBold                   Bold               " #31aed8
+hi! link mkdBold                        Bold               " #31aed8
 hi! link markdownItalic                 BlizzardBlueFg     " #b4e3f2
+hi! link mkdItalic                      BlizzardBlueFg     " #b4e3f2
 hi! link markdownCodeDelimiter          OlivineFg          " #94c470
 hi! link markdownCodeBlock              OlivineFg          " #94c470
 hi! link markdownCode                   OlivineFg          " #94c470
+hi! link mkdCode                        OlivineFg          " #94c470
 hi! link markdownLinkText               ChantillyFg        " #F7AFE7
 hi! link markdownLinkTextDelimiter      NoFg
 hi! link markdownLink                   ChantillyFg        " #F7AFE7
@@ -342,6 +358,7 @@ hi! link mmdTable                       DoveFg             " #666666
 hi! link mmdTableHeader                 ScooterFg          " #31aed8
 hi! link mmdTableDelimiter              BlizzardBlueFg     " #b4e3f2
 hi! link mmdTableHeadDelimiter          BlizzardBlueFg     " #b4e3f2
+hi! link mkdBlockquote                  ScooterFg          " #b4e3f2
 
 " CriticMarkup
 "
@@ -349,8 +366,8 @@ hi! link mdCriticAdd                    ForestGreenFg      " #47a628
 hi! link mdCriticAddition               ForestGreenFg      " #47a628
 hi! link mdCriticAddStartMark           ForestGreenFg      " #47a628
 hi! link mdCriticAddEndMark             ForestGreenFg      " #47a628
-hi! link mdCriticDel                    RedFg              " #ff0000
-hi! link mdCriticDeletion               TundoraLightFg     " #4A4A4A
+hi! link mdCriticDel                    Strikethrough      " #ff0000
+hi! link mdCriticDeletion               Strikethrough      " #4A4A4A
 hi! link mdCriticDelStartMark           RedFg              " #ff0000 
 hi! link mdCriticDelEndMark             RedFg              " #ff0000
 hi! link mdCriticSubRemove              TundoraLightFg     " #4A4A4A
@@ -448,4 +465,5 @@ hi! link jsonString                     MoonGlowFg         " #FEFED0
 
 " Bash/Zsh/Shell
 hi! link shEcho                         BlizzardBlueFg     " #b4e3f2
+
 
