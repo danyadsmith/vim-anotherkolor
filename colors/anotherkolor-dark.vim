@@ -98,7 +98,7 @@ hi NoFg           ctermfg=NONE guifg=NONE
 
 hi Strikethrough           ctermfg=NONE guifg=#f22636 gui=strikethrough term=strikethrough cterm=strikethrough
 hi Bold                    ctermfg=NONE guifg=#31aed8 gui=bold term=bold cterm=bold
-hi Italic                  ctermfg=NONE guifg=#b4e3f2 gui=italic term=italic cterm=italic
+hi Italic                  ctermfg=NONE guifg=#90c9d3 gui=italic term=italic cterm=italic
 hi Underline               ctermfg=NONE guifg=#ffffff gui=underline term=underline cterm=underline
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -334,16 +334,16 @@ hi GitGutterChangeDelete  ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#e642a2 g
 
 " Markdown
 hi! link markdownHeadingDelimiter       DarkMutedFg        " #3a3a3a
-hi! link markdownH1                     WhiteFg            " #ffffff
+hi! link markdownH1                     Bold               " #ffffff
 hi! link markdownH2                     ScooterFg          " #31aed8
-hi! link markdownH3                     ScooterFg          " #31aed8
+hi! link markdownH3                     LavenderFg         " #31aed8
 hi! link markdownH4                     ScooterFg          " #31aed8
-hi! link markdownH5                     ScooterFg          " #31aed8
+hi! link markdownH5                     LavenderFg         " #31aed8
 hi! link markdownH6                     ScooterFg          " #31aed8
 hi! link markdownBold                   Bold               " #31aed8
 hi! link mkdBold                        Bold               " #31aed8
-hi! link markdownItalic                 BlizzardBlueFg     " #b4e3f2
-hi! link mkdItalic                      BlizzardBlueFg     " #b4e3f2
+hi! link markdownItalic                 Italic             " #b4e3f2
+hi! link mkdItalic                      Italic             " #b4e3f2
 hi! link markdownCodeDelimiter          OlivineFg          " #94c470
 hi! link markdownCodeBlock              OlivineFg          " #94c470
 hi! link markdownCode                   OlivineFg          " #94c470
@@ -351,7 +351,9 @@ hi! link mkdCode                        OlivineFg          " #94c470
 hi! link markdownLinkText               ChantillyFg        " #F7AFE7
 hi! link markdownLinkTextDelimiter      NoFg
 hi! link markdownLink                   ChantillyFg        " #F7AFE7
+hi! link mkdLink                        ChantillyFg        " #F7AFE7 
 hi! link markdownUrl                    NoFg
+hi! link mkdUrl                         NoFg
 hi! link markdownListMarker             ScooterFg          " #31aed8
 hi! link markdownBlockquote             ScooterFg          " #31aed8
 hi! link mmdTable                       DoveFg             " #666666
@@ -359,6 +361,16 @@ hi! link mmdTableHeader                 ScooterFg          " #31aed8
 hi! link mmdTableDelimiter              BlizzardBlueFg     " #b4e3f2
 hi! link mmdTableHeadDelimiter          BlizzardBlueFg     " #b4e3f2
 hi! link mkdBlockquote                  ScooterFg          " #b4e3f2
+
+" Vimwiki
+hi! link VimwikiHeader1                 Bold               " #ffffff
+hi! link VimwikiHeader2                 ScooterFg          " #31aed8 
+hi! link VimwikiHeader3                 LavenderFg         " #31aed8
+hi! link VimwikiHeader4                 ScooterFg          " #31aed8 
+hi! link VimwikiHeader5                 LavenderFg         " #31aed8
+hi! link VimwikiHeader6                 ScooterFg          " #31aed8 
+hi! link VimwikiWeblink1                ChantillyFg        " #F7AFE7
+hi! link VimwikiItalic                  Italic             " #b4e3f2
 
 " CriticMarkup
 "
