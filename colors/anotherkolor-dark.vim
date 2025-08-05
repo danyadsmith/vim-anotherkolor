@@ -53,7 +53,7 @@ hi CriticAddition       ctermfg=NONE guifg=#00a03f
 hi CriticSubstitution   ctermfg=NONE guifg=#ffa300
 hi CriticHighlight      ctermfg=NONE guifg=#ffce00
 hi CriticCommentMark    ctermfg=NONE guifg=#2f2d85
-hi CriticCommentText    ctermfg=NONE guifg=#a6938c gui=italic term=italic cterm=italic
+hi CriticCommentText    ctermfg=NONE guifg=#34359a gui=italic term=italic cterm=italic
 hi CriticMuted          ctermfg=NONE guifg=#4a4a4a
 
 " Theme Foreground Colors
