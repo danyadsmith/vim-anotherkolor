@@ -53,7 +53,7 @@ hi CriticAddition       ctermfg=NONE guifg=#00a03f
 hi CriticSubstitution   ctermfg=NONE guifg=#ffa300
 hi CriticHighlight      ctermfg=NONE guifg=#ffce00
 hi CriticCommentMark    ctermfg=NONE guifg=#2f2d85
-hi CriticComment        ctermfg=NONE guifg=#a6938c
+hi CriticCommentText    ctermfg=NONE guifg=#a6938c gui=italic term=italic cterm=italic
 
 " Theme Foreground Colors
 
@@ -381,27 +381,23 @@ hi! link VimwikiItalic                  Italic             " #b4e3f2
 hi! link VimwikiHeaderChar              TundoraLightFg     " #4A4A4A
 
 " CriticMarkup
+
+" Delimeters
+hi! link criticAdd                      CriticAddition     " #00a03f
+hi! link criticDel                      CriticDeletion     " #00a03f
+hi! link criticHighlighter              CriticHighlight    " #00a03f
+hi! link criticMeta                     CriticCommentMark  " #00a03f
+hi! link criticSubstitutionAdditionMark CriticSubstitution " #ffa300
+hi! link criticSubstitutionDeletionMark CriticSubstitution " #ffa300
 "
-hi! link mdCriticAdd                    CriticAddition     " #00a03f
-hi! link mdCriticAddition               CriticAddition     " #00a03f
-hi! link mdCriticAddStartMark           CriticAddition     " #00a03f
-hi! link mdCriticAddEndMark             CriticAddition     " #00a03f
-hi! link mdCriticDel                    Strikethrough      " #830019
-hi! link mdCriticDeletion               Strikethrough      " #830019
-hi! link mdCriticDelStartMark           CriticDeletion     " #830019 
-hi! link mdCriticDelEndMark             CriticDeletion     " #830019
-hi! link mdCriticSubRemove              TundoraLightFg     " #4A4A4A
-hi! link mdCriticSubStartMark           CriticSubstitution " #ffa300
-hi! link mdCriticSubstitute             CriticSubstitution " #ffa300
-hi! link mdCriticSubTransMark           CriticSubstitution " #ffa300
-hi! link mdCriticSubEndMark             CriticSubstitution " #ffa300
-hi! link mdCriticComment                CriticComment      " #a69e8c
-hi! link mdCriticCommentStartMark       CriticCommentMark  " #2f2d85
-hi! link mdCriticCommentEndMark         CriticComentMark   " #2f2d85
-hi! link mdCriticCom                    CriticComment      " #a69e8c
-hi! link mdCriticHighlight              CriticHighlight    " #ffce00
-hi! link mdCriticExtra                  CriticHighlight    " #ffce00
-"
+" Words
+hi! link CriticAddition                 CriticAddition     " #00a03f
+hi! link CriticComment                  CriticCommentText  " #a69e8c
+hi! link CriticDeletion                 CriticDeletion     " #830019
+hi! link CriticHighlight                CriticHighlight    " #ffce00
+hi! link criticSubstitutionAddition     CriticSubstitution " #ffa300
+hi! link criticSubstitutionDeletion     CriticCommentMark  " #ffa300
+
 " XML
 hi! link xmlTag                         ScooterFg          " #31aed8
 hi! link xmlTagName                     ScooterFg          " #31aed8
