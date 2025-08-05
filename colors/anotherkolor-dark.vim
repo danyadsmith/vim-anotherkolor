@@ -48,6 +48,13 @@ hi VioletFg       ctermfg=NONE guifg=#0062a6
 hi PurpleFg       ctermfg=NONE guifg=#773cb3 
 hi MagentaFg      ctermfg=NONE guifg=#d73bb3 
 
+hi CriticDeletion       ctermfg=NONE guifg=#760217
+hi CriticAddition       ctermfg=NONE guifg=#00a03f
+hi CriticSubstitution   ctermfg=NONE guifg=#ffa300
+hi CriticHighlight      ctermfg=NONE guifg=#ffce00
+hi CriticCommentMark    ctermfg=NONE guifg=#2f2d85
+hi CriticComment        ctermfg=NONE guifg=#a6938c
+
 " Theme Foreground Colors
 
 hi DarkRedFg      ctermfg=NONE guifg=#d70000
@@ -371,28 +378,29 @@ hi! link VimwikiHeader5                 LavenderFg         " #31aed8
 hi! link VimwikiHeader6                 ScooterFg          " #31aed8 
 hi! link VimwikiWeblink1                ChantillyFg        " #F7AFE7
 hi! link VimwikiItalic                  Italic             " #b4e3f2
+hi! link VimwikiHeaderChar              TundoraLightFg     " #4A4A4A
 
 " CriticMarkup
 "
-hi! link mdCriticAdd                    ForestGreenFg      " #47a628
-hi! link mdCriticAddition               ForestGreenFg      " #47a628
-hi! link mdCriticAddStartMark           ForestGreenFg      " #47a628
-hi! link mdCriticAddEndMark             ForestGreenFg      " #47a628
-hi! link mdCriticDel                    Strikethrough      " #ff0000
-hi! link mdCriticDeletion               Strikethrough      " #4A4A4A
-hi! link mdCriticDelStartMark           DarkRedFg          " #ff0000 
-hi! link mdCriticDelEndMark             DarkRedFg          " #ff0000
+hi! link mdCriticAdd                    CriticAddition     " #00a03f
+hi! link mdCriticAddition               CriticAddition     " #00a03f
+hi! link mdCriticAddStartMark           CriticAddition     " #00a03f
+hi! link mdCriticAddEndMark             CriticAddition     " #00a03f
+hi! link mdCriticDel                    Strikethrough      " #830019
+hi! link mdCriticDeletion               Strikethrough      " #830019
+hi! link mdCriticDelStartMark           CriticDeletion     " #830019 
+hi! link mdCriticDelEndMark             CriticDeletion     " #830019
 hi! link mdCriticSubRemove              TundoraLightFg     " #4A4A4A
-hi! link mdCriticSubStartMark           OrangeFg           " #ff8000
-hi! link mdCriticSubstitute             OrangeFg           " #ff8000
-hi! link mdCriticSubTransMark           OrangeFg           " #ff8000
-hi! link mdCriticSubEndMark             OrangeFg           " #ff8000
-hi! link mdCriticComment                PurpleFg           " #aa66cc
-hi! link mdCriticCommentStartMark       PurpleFg           " #aa66cc
-hi! link mdCriticCommentEndMark         PurpleFg           " #aa66cc
-hi! link mdCriticCom                    PurpleFg           " #aa66cc
-hi! link mdCriticHighlight              AmberFg            " #ffc000
-hi! link mdCriticExtra                  AmberFg            " #ffc000
+hi! link mdCriticSubStartMark           CriticSubstitution " #ffa300
+hi! link mdCriticSubstitute             CriticSubstitution " #ffa300
+hi! link mdCriticSubTransMark           CriticSubstitution " #ffa300
+hi! link mdCriticSubEndMark             CriticSubstitution " #ffa300
+hi! link mdCriticComment                CriticComment      " #a69e8c
+hi! link mdCriticCommentStartMark       CriticCommentMark  " #2f2d85
+hi! link mdCriticCommentEndMark         CriticComentMark   " #2f2d85
+hi! link mdCriticCom                    CriticComment      " #a69e8c
+hi! link mdCriticHighlight              CriticHighlight    " #ffce00
+hi! link mdCriticExtra                  CriticHighlight    " #ffce00
 "
 " XML
 hi! link xmlTag                         ScooterFg          " #31aed8
