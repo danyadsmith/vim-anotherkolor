@@ -96,10 +96,10 @@ hi NoFg           ctermfg=NONE guifg=NONE
 
 " Foreground Colors with Custom Formatting
 
-hi Strikethrough           ctermfg=NONE guifg=#f22636 gui=strikethrough
-hi Bold                    ctermfg=NONE guifg=#31aed8 gui=bold
-hi Italic                  ctermfg=NONE guifg=#b4e3f2 gui=italic
-hi Underline               ctermfg=NONE guifg=#ffffff gui=underline
+hi Strikethrough           ctermfg=NONE guifg=#f22636 gui=strikethrough term=strikethrough cterm=strikethrough
+hi Bold                    ctermfg=NONE guifg=#31aed8 gui=bold term=bold cterm=bold
+hi Italic                  ctermfg=NONE guifg=#b4e3f2 gui=italic term=italic cterm=italic
+hi Underline               ctermfg=NONE guifg=#ffffff gui=underline term=underline cterm=underline
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Background Colors
@@ -368,8 +368,8 @@ hi! link mdCriticAddStartMark           ForestGreenFg      " #47a628
 hi! link mdCriticAddEndMark             ForestGreenFg      " #47a628
 hi! link mdCriticDel                    Strikethrough      " #ff0000
 hi! link mdCriticDeletion               Strikethrough      " #4A4A4A
-hi! link mdCriticDelStartMark           RedFg              " #ff0000 
-hi! link mdCriticDelEndMark             RedFg              " #ff0000
+hi! link mdCriticDelStartMark           DarkRedFg          " #ff0000 
+hi! link mdCriticDelEndMark             DarkRedFg          " #ff0000
 hi! link mdCriticSubRemove              TundoraLightFg     " #4A4A4A
 hi! link mdCriticSubStartMark           OrangeFg           " #ff8000
 hi! link mdCriticSubstitute             OrangeFg           " #ff8000
