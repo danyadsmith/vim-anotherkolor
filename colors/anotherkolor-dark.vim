@@ -48,12 +48,13 @@ hi VioletFg       ctermfg=NONE guifg=#0062a6
 hi PurpleFg       ctermfg=NONE guifg=#773cb3 
 hi MagentaFg      ctermfg=NONE guifg=#d73bb3 
 
-hi CriticDeletion       ctermfg=NONE guifg=#760217
+hi CriticDeletion       ctermfg=NONE guifg=#b10022 gui=strikethrough term=strikethrough cterm=strikethrough
 hi CriticAddition       ctermfg=NONE guifg=#00a03f
 hi CriticSubstitution   ctermfg=NONE guifg=#ffa300
 hi CriticHighlight      ctermfg=NONE guifg=#ffce00
 hi CriticCommentMark    ctermfg=NONE guifg=#2f2d85
 hi CriticCommentText    ctermfg=NONE guifg=#a6938c gui=italic term=italic cterm=italic
+hi CriticMuted          ctermfg=NONE guifg=#4a4a4a
 
 " Theme Foreground Colors
 
@@ -386,7 +387,7 @@ hi! link VimwikiHeaderChar              TundoraLightFg     " #4A4A4A
 hi! link criticAdd                      CriticAddition     " #00a03f
 hi! link criticDel                      CriticDeletion     " #00a03f
 hi! link criticHighlighter              CriticHighlight    " #00a03f
-hi! link criticMeta                     CriticCommentMark  " #00a03f
+hi! link criticMeta                     CriticMuted        " #00a03f
 hi! link criticSubstitutionAdditionMark CriticSubstitution " #ffa300
 hi! link criticSubstitutionDeletionMark CriticSubstitution " #ffa300
 "
@@ -396,7 +397,7 @@ hi! link CriticComment                  CriticCommentText  " #a69e8c
 hi! link CriticDeletion                 CriticDeletion     " #830019
 hi! link CriticHighlight                CriticHighlight    " #ffce00
 hi! link criticSubstitutionAddition     CriticSubstitution " #ffa300
-hi! link criticSubstitutionDeletion     CriticCommentMark  " #ffa300
+hi! link criticSubstitutionDeletion     CriticMuted        " #ffa300
 
 " XML
 hi! link xmlTag                         ScooterFg          " #31aed8
