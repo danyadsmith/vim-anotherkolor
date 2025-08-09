@@ -48,12 +48,12 @@ hi VioletFg       ctermfg=NONE guifg=#0062a6
 hi PurpleFg       ctermfg=NONE guifg=#773cb3 
 hi MagentaFg      ctermfg=NONE guifg=#d73bb3 
 
-hi CriticDeletion       ctermfg=NONE guifg=#b10022 gui=strikethrough term=strikethrough cterm=strikethrough
-hi CriticAddition       ctermfg=NONE guifg=#00a03f
-hi CriticSubstitution   ctermfg=NONE guifg=#ffa300
-hi CriticHighlight      ctermfg=NONE guifg=#ffce00
+hi CriticDeletion       ctermfg=NONE guifg=#f22636 gui=strikethrough term=strikethrough cterm=strikethrough
+hi CriticAddition       ctermfg=NONE guifg=#00bc71
+hi CriticSubstitution   ctermfg=NONE guifg=#ff9015
+hi CriticHighlight      ctermfg=NONE guifg=#ffc500
 hi CriticCommentMark    ctermfg=NONE guifg=#2f2d85
-hi CriticCommentText    ctermfg=NONE guifg=#34359a gui=italic term=italic cterm=italic
+hi CriticCommentText    ctermfg=NONE guifg=#0062a6 gui=italic term=italic cterm=italic
 hi CriticMuted          ctermfg=NONE guifg=#4a4a4a
 
 " Theme Foreground Colors
@@ -356,10 +356,10 @@ hi! link markdownCodeDelimiter          OlivineFg          " #94c470
 hi! link markdownCodeBlock              OlivineFg          " #94c470
 hi! link markdownCode                   OlivineFg          " #94c470
 hi! link mkdCode                        OlivineFg          " #94c470
-hi! link markdownLinkText               ChantillyFg        " #F7AFE7
+hi! link markdownLinkText               TurquoiseFg        " #43d3c1
 hi! link markdownLinkTextDelimiter      NoFg
-hi! link markdownLink                   ChantillyFg        " #F7AFE7
-hi! link mkdLink                        ChantillyFg        " #F7AFE7 
+hi! link markdownLink                   TurquoiseFg        " #43d3c1
+hi! link mkdLink                        TurquoiseFg        " #43d3c1 
 hi! link markdownUrl                    NoFg
 hi! link mkdUrl                         NoFg
 hi! link markdownListMarker             ScooterFg          " #31aed8
@@ -377,27 +377,27 @@ hi! link VimwikiHeader3                 LavenderFg         " #31aed8
 hi! link VimwikiHeader4                 ScooterFg          " #31aed8 
 hi! link VimwikiHeader5                 LavenderFg         " #31aed8
 hi! link VimwikiHeader6                 ScooterFg          " #31aed8 
-hi! link VimwikiWeblink1                ChantillyFg        " #F7AFE7
+hi! link VimwikiWeblink1                TurquoiseFg        " #43d3c1
 hi! link VimwikiItalic                  Italic             " #b4e3f2
 hi! link VimwikiHeaderChar              TundoraLightFg     " #4A4A4A
 
 " CriticMarkup
 
 " Delimeters
-hi! link criticAdd                      CriticAddition     " #00a03f
-hi! link criticDel                      CriticDeletion     " #00a03f
-hi! link criticHighlighter              CriticHighlight    " #00a03f
-hi! link criticMeta                     CriticMuted        " #00a03f
-hi! link criticSubstitutionAdditionMark CriticSubstitution " #ffa300
-hi! link criticSubstitutionDeletionMark CriticSubstitution " #ffa300
+hi! link criticAdd                      CriticAddition     " #00bc71
+hi! link criticDel                      CriticDeletion     " #f22636
+hi! link criticHighlighter              CriticHighlight    " #00bc71
+hi! link criticMeta                     CriticMuted        " #4a4a4a
+hi! link criticSubstitutionAdditionMark CriticSubstitution " #ff9015
+hi! link criticSubstitutionDeletionMark CriticSubstitution " #ff9015
 "
 " Words
-hi! link CriticAddition                 CriticAddition     " #00a03f
-hi! link CriticComment                  CriticCommentText  " #a69e8c
-hi! link CriticDeletion                 CriticDeletion     " #830019
-hi! link CriticHighlight                CriticHighlight    " #ffce00
-hi! link criticSubstitutionAddition     CriticSubstitution " #ffa300
-hi! link criticSubstitutionDeletion     CriticMuted        " #ffa300
+hi! link CriticAddition                 CriticAddition     " #00bc71
+hi! link CriticComment                  CriticCommentText  " #0062a6
+hi! link CriticDeletion                 CriticDeletion     " #f22636
+hi! link CriticHighlight                CriticHighlight    " #ffc500
+hi! link criticSubstitutionAddition     CriticSubstitution " #ff9015
+hi! link criticSubstitutionDeletion     CriticMuted        " #ff9015
 
 " XML
 hi! link xmlTag                         ScooterFg          " #31aed8
@@ -453,7 +453,7 @@ hi! link csString                       MoonGlowFg         " #FEFED0
 hi! link csLabel                        TurquoiseFg        " #43d3c1
 hi! link csComment                      MineShaftLtFg      " #3a3a3a
 hi! link csAttribute                    ForestGreenFg      " #47a628
-hi! link csLinq                         ChantillyFg        " #F7AFE7
+hi! link csLinq                         TurquoiseFg        " #F7AFE7
 hi! link csException                    CeriseFg           " #E642A2
 hi! link csConstant                     MoonGlowFg         " #FEFED0
 hi! link csTodo                         PersimmonFg        " #FF615A
