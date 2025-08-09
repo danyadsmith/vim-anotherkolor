@@ -78,7 +78,7 @@ hi CeriseFg       ctermfg=NONE guifg=#E642A2
 hi ChantillyFg    ctermfg=NONE guifg=#F7AFE7 
 hi PinkSalmonFg   ctermfg=NONE guifg=#ff87af 
 hi BrownFg        ctermfg=NONE guifg=#5c3b0c 
-hi TanFg          ctermfg=NONE guifg=#e8c18c 
+hi TanFg          ctermfg=NONE guifg=#ffe6c1 
 hi SisalFg        ctermfg=NONE guifg=#DAD6C3
 hi EcruWhiteFg    ctermfg=NONE guifg=#F5F5E5
 
@@ -137,7 +137,7 @@ hi PinkSalmonBg   ctermfg=NONE guifg=#ff87af
 hi GorseBg        ctermbg=NONE guibg=#FFF654
 hi MoonGlowBg     ctermbg=NONE guibg=#FEFED0 
 hi PampasBg       ctermbg=NONE guibg=#F0EEE5
-hi TanBg          ctermbg=NONE guibg=#e8c18c 
+hi TanBg          ctermbg=NONE guibg=#ffe6c1 
 hi SisalBg        ctermbg=NONE guibg=#DAD6C3
 hi ThistleBg      ctermbg=NONE guibg=#CDCAAF
 hi EcruWhiteBg    ctermbg=NONE guibg=#F5F5E5
@@ -212,14 +212,14 @@ hi! link Float                          MoonGlowFg         " #FEFED0
 hi! link Function                       NoHighlight
 hi! link Identifier                     ScooterFg          " #31aed8
 hi! link Keyword                        ScooterFg          " #31aed8
-hi! link Label                          TanFg              " #e8c18c
+hi! link Label                          TanFg              " #ffe6c1
 hi! link Number                         MoonGlowFg         " #FEFED0
 hi! link Operator                       WhiteFg            " #ffffff
 hi! link PreProc                        ScooterFg          " #31aed8
 hi! link Special                        GalleryFg          " #eeeeee
 hi! link Statement                      ScooterFg          " #31aed8
 hi! link StorageClass                   ScooterFg          " #31aed8
-hi! link String                         TanFg              " #e8c18c
+hi! link String                         TanFg              " #ffe6c1
 hi! link Tag                            BlueFg             " #3333ff
 hi! link Todo                           PurpleFg           " #aa66cc
 hi! link Type                           ChartreuseFg       " #99eb00
@@ -319,7 +319,7 @@ hi! link javaScriptBraces               NoFg
 hi! link yamlKey                        NoFg
 hi! link yamlAnchor                     SailFg             " #A7E4F4
 hi! link yamlAlias                      SailFg             " #A7E4F4
-hi! link yamlDocumentHeader             TanFg              " #e8c18c
+hi! link yamlDocumentHeader             TanFg              " #ffe6c1
 
 " CSS 
 hi! link cssURL                         ForestGreenFg      " #47a628
@@ -356,10 +356,10 @@ hi! link markdownCodeDelimiter          OlivineFg          " #94c470
 hi! link markdownCodeBlock              OlivineFg          " #94c470
 hi! link markdownCode                   OlivineFg          " #94c470
 hi! link mkdCode                        OlivineFg          " #94c470
-hi! link markdownLinkText               TanFg              " #e8c18c
+hi! link markdownLinkText               TanFg              " #ffe6c1
 hi! link markdownLinkTextDelimiter      NoFg
-hi! link markdownLink                   TanFg              " #e8c18c
-hi! link mkdLink                        TanFg              " #e8c18c 
+hi! link markdownLink                   TanFg              " #ffe6c1
+hi! link mkdLink                        TanFg              " #ffe6c1 
 hi! link markdownUrl                    NoFg
 hi! link mkdUrl                         NoFg
 hi! link markdownListMarker             ScooterFg          " #31aed8
@@ -377,7 +377,7 @@ hi! link VimwikiHeader3                 LavenderFg         " #31aed8
 hi! link VimwikiHeader4                 ScooterFg          " #31aed8 
 hi! link VimwikiHeader5                 LavenderFg         " #31aed8
 hi! link VimwikiHeader6                 ScooterFg          " #31aed8 
-hi! link VimwikiWeblink1                TanFg              " #e8c18c
+hi! link VimwikiWeblink1                TanFg              " #ffe6c1
 hi! link VimwikiItalic                  Italic             " #b4e3f2
 hi! link VimwikiHeaderChar              TundoraLightFg     " #4A4A4A
 
