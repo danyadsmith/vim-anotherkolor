@@ -64,6 +64,7 @@ hi PaleOrangeFg   ctermfg=NONE guifg=#ffaf47
 hi DarkAmberFg    ctermfg=NONE guifg=#dcA706
 hi GorseFg        ctermfg=NONE guifg=#FFF654
 hi HoneysuckleFg  ctermfg=NONE guifg=#f9fb8c 
+hi PaleYellowFg   ctermfg=NONE guifg=#fafaab
 hi MoonGlowFg     ctermfg=NONE guifg=#FEFED0 
 hi OlivineFg      ctermfg=NONE guifg=#94c470 
 hi GreenAppleFg   ctermfg=NONE guifg=#31AD38
@@ -356,10 +357,10 @@ hi! link markdownCodeDelimiter          OlivineFg          " #94c470
 hi! link markdownCodeBlock              OlivineFg          " #94c470
 hi! link markdownCode                   OlivineFg          " #94c470
 hi! link mkdCode                        OlivineFg          " #94c470
-hi! link markdownLinkText               TurquoiseFg        " #43d3c1
+hi! link markdownLinkText               PaleYellowFg        " #fafaab
 hi! link markdownLinkTextDelimiter      NoFg
-hi! link markdownLink                   TurquoiseFg        " #43d3c1
-hi! link mkdLink                        TurquoiseFg        " #43d3c1 
+hi! link markdownLink                   PaleYellowFg        " #fafaab
+hi! link mkdLink                        PaleYellowFg        " #fafaab 
 hi! link markdownUrl                    NoFg
 hi! link mkdUrl                         NoFg
 hi! link markdownListMarker             ScooterFg          " #31aed8
@@ -377,7 +378,7 @@ hi! link VimwikiHeader3                 LavenderFg         " #31aed8
 hi! link VimwikiHeader4                 ScooterFg          " #31aed8 
 hi! link VimwikiHeader5                 LavenderFg         " #31aed8
 hi! link VimwikiHeader6                 ScooterFg          " #31aed8 
-hi! link VimwikiWeblink1                TurquoiseFg        " #43d3c1
+hi! link VimwikiWeblink1                PaleYellowFg        " #fafaab
 hi! link VimwikiItalic                  Italic             " #b4e3f2
 hi! link VimwikiHeaderChar              TundoraLightFg     " #4A4A4A
 
@@ -453,7 +454,7 @@ hi! link csString                       MoonGlowFg         " #FEFED0
 hi! link csLabel                        TurquoiseFg        " #43d3c1
 hi! link csComment                      MineShaftLtFg      " #3a3a3a
 hi! link csAttribute                    ForestGreenFg      " #47a628
-hi! link csLinq                         TurquoiseFg        " #F7AFE7
+hi! link csLinq                         ChantillyFg        " #F7AFE7
 hi! link csException                    CeriseFg           " #E642A2
 hi! link csConstant                     MoonGlowFg         " #FEFED0
 hi! link csTodo                         PersimmonFg        " #FF615A
