@@ -380,6 +380,7 @@ hi! link VimwikiHeader6                 ScooterFg          " #31aed8
 hi! link VimwikiWeblink1                TanFg              " #fff2dc
 hi! link VimwikiItalic                  Italic             " #b4e3f2
 hi! link VimwikiHeaderChar              TundoraLightFg     " #4A4A4A
+hi! link VimwikiCode                    OlivineFg          " #94c470
 
 " CriticMarkup
 
