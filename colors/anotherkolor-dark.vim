@@ -59,28 +59,64 @@ hi CriticMuted          ctermfg=NONE guifg=#4a4a4a
 " Theme Foreground Colors
 
 hi DarkRedFg      ctermfg=NONE guifg=#d70000
+hi BrickFg        ctermfg=NONE guifg=#951521
+hi CherryFg       ctermfg=NONE guifg=#97134c
 hi PersimmonFg    ctermfg=NONE guifg=#FF615A 
+hi CoralFg        ctermfg=NONE guifg=#ff6359
+hi CrustaFg       ctermfg=NONE guifg=#f77232
 hi PaleOrangeFg   ctermfg=NONE guifg=#ffaf47 
+hi CitrineFg      ctermfg=NONE guifg=#c38e2a
 hi DarkAmberFg    ctermfg=NONE guifg=#dcA706
+hi BarberryFg     ctermfg=NONE guifg=#e8D013
 hi GorseFg        ctermfg=NONE guifg=#FFF654
 hi HoneysuckleFg  ctermfg=NONE guifg=#f9fb8c 
 hi MoonGlowFg     ctermfg=NONE guifg=#FEFED0 
 hi OlivineFg      ctermfg=NONE guifg=#94c470 
 hi GreenAppleFg   ctermfg=NONE guifg=#31AD38
 hi ForestGreenFg  ctermfg=NONE guifg=#47a628 
-hi TurquoiseFg    ctermfg=NONE guifg=#43d3c1 
+hi ForestFg       ctermfg=NONE guifg=#479329
+hi OliveFg        ctermfg=NONE guifg=#688030
+hi TurquoiseFg    ctermfg=NONE guifg=#14c0a9
 hi SailFg         ctermfg=NONE guifg=#A7E4F4 
 hi BlizzardBlueFg ctermfg=NONE guifg=#b4e3f2 
 hi ScooterFg      ctermfg=NONE guifg=#31aed8 
-hi LavenderFg     ctermfg=NONE guifg=#D6B5F1 
+hi JavaFg         ctermfg=NONE guifg=#12a3c9
+hi CeruleanFg     ctermfg=NONE guifg=#2b4ed5
+hi NavyFg         ctermfg=NONE guifg=#113e6f
+hi CannonFg       ctermfg=NONE guifg=#994b78
+hi TyrianFg       ctermfg=NONE guifg=#750049
+hi PlumFg         ctermfg=NONE guifg=#531f76
 hi DeepPurpleFg   ctermfg=NONE guifg=#94539a 
 hi CeriseFg       ctermfg=NONE guifg=#E642A2 
 hi ChantillyFg    ctermfg=NONE guifg=#F7AFE7 
+hi PinkFg         ctermfg=NONE guifg=#ff82ba
 hi PinkSalmonFg   ctermfg=NONE guifg=#ff87af 
+hi RussetFg       ctermfg=NONE guifg=#88431D
 hi BrownFg        ctermfg=NONE guifg=#5c3b0c 
-hi TanFg          ctermfg=NONE guifg=#fff2dc 
 hi SisalFg        ctermfg=NONE guifg=#DAD6C3
+hi VanillaFg      ctermfg=NONE guifg=#fff2dc 
 hi EcruWhiteFg    ctermfg=NONE guifg=#F5F5E5
+hi TanFg          ctermfg=NONE guifg=#b89d7a
+hi SalmonFg       ctermfg=NONE guifg=#ff8b9e
+hi PeonyFg        ctermfg=NONE guifg=#ffa8a5
+hi PeachFg        ctermfg=NONE guifg=#ffcc91
+hi CornFg         ctermfg=NONE guifg=#fdef81
+hi LemonFg        ctermfg=NONE guifg=#faffa9
+hi PistachioFg    ctermfg=NONE guifg=#adf7ac
+hi GreenAppleFg   ctermfg=NONE guifg=#78d38b
+hi AquamarineFg   ctermfg=NONE guifg=#55ebca
+hi SkyFg          ctermfg=NONE guifg=#a0e0fe
+hi MalibuFg       ctermfg=NONE guifg=#95baf8
+hi LilacFg        ctermfg=NONE guifg=#bab8e7
+hi LavenderFg     ctermfg=NONE guifg=#B59Be3
+hi RoseFg         ctermfg=NONE guifg=#f2a4d2
+hi DahliaFg       ctermfg=NONE guifg=#ffc8f5
+hi MoonFg         ctermfg=NONE guifg=#ead6bf
+hi RoseGoldFg     ctermfg=NONE guifg=#da9387
+hi GoldFg         ctermfg=NONE guifg=#c9b037
+hi SilverFg       ctermfg=NONE guifg=#d7d7d7
+hi BronzeFg       ctermfg=NONE guifg=#ad8a56
+hi CopperFg       ctermfg=NONE guifg=#c56c49
 
 " Grayscale Foreground Colors
 
@@ -105,7 +141,7 @@ hi NoFg           ctermfg=NONE guifg=NONE
 " Foreground Colors with Custom Formatting
 
 hi Strikethrough           ctermfg=NONE guifg=#f22636 gui=strikethrough term=strikethrough cterm=strikethrough
-hi Bold                    ctermfg=NONE guifg=#31aed8 gui=bold term=bold cterm=bold
+hi Bold                    ctermfg=NONE guifg=#2b4ed5 gui=bold term=bold cterm=bold
 hi Italic                  ctermfg=NONE guifg=#90c9d3 gui=italic term=italic cterm=italic
 hi Underline               ctermfg=NONE guifg=#ffffff gui=underline term=underline cterm=underline
 
@@ -137,7 +173,7 @@ hi PinkSalmonBg   ctermfg=NONE guifg=#ff87af
 hi GorseBg        ctermbg=NONE guibg=#FFF654
 hi MoonGlowBg     ctermbg=NONE guibg=#FEFED0 
 hi PampasBg       ctermbg=NONE guibg=#F0EEE5
-hi TanBg          ctermbg=NONE guibg=#fff2dc 
+hi VanillaBg          ctermbg=NONE guibg=#fff2dc 
 hi SisalBg        ctermbg=NONE guibg=#DAD6C3
 hi ThistleBg      ctermbg=NONE guibg=#CDCAAF
 hi EcruWhiteBg    ctermbg=NONE guibg=#F5F5E5
@@ -212,14 +248,14 @@ hi! link Float                          MoonGlowFg         " #FEFED0
 hi! link Function                       NoHighlight
 hi! link Identifier                     ScooterFg          " #31aed8
 hi! link Keyword                        ScooterFg          " #31aed8
-hi! link Label                          TanFg              " #fff2dc
+hi! link Label                          VanillaFg              " #fff2dc
 hi! link Number                         MoonGlowFg         " #FEFED0
 hi! link Operator                       WhiteFg            " #ffffff
 hi! link PreProc                        ScooterFg          " #31aed8
 hi! link Special                        GalleryFg          " #eeeeee
 hi! link Statement                      ScooterFg          " #31aed8
 hi! link StorageClass                   ScooterFg          " #31aed8
-hi! link String                         TanFg              " #fff2dc
+hi! link String                         VanillaFg              " #fff2dc
 hi! link Tag                            BlueFg             " #3333ff
 hi! link Todo                           PurpleFg           " #aa66cc
 hi! link Type                           ChartreuseFg       " #99eb00
@@ -285,7 +321,8 @@ hi! link htmlTitle                      NoFg
 hi! link htmlH1                         Bold               " #ffffff
 hi! link htmlH2                         ScooterFg          " #31aed8
 hi! link htmlH3                         LavenderFg         " #D6B5F1 
-hi! link htmlH4                         BlizzardBlueFg     " #b4e3f2
+hi! link htmlH4                         MalibuFg           " #95baf8
+hi! link htmlH5                         SkyFg              " #a0e0fe
 hi! link htmlLink                       NoFg
 hi! link htmlComment                    MutedBg            " #3a3a3a
 hi! link htmlScriptTag                  ScooterFg          " #31aed8
@@ -319,7 +356,7 @@ hi! link javaScriptBraces               NoFg
 hi! link yamlKey                        NoFg
 hi! link yamlAnchor                     SailFg             " #A7E4F4
 hi! link yamlAlias                      SailFg             " #A7E4F4
-hi! link yamlDocumentHeader             TanFg              " #fff2dc
+hi! link yamlDocumentHeader             VanillaFg              " #fff2dc
 
 " CSS 
 hi! link cssURL                         ForestGreenFg      " #47a628
@@ -344,9 +381,9 @@ hi GitGutterChangeDelete  ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#e642a2 g
 hi! link markdownHeadingDelimiter       DarkMutedFg        " #3a3a3a
 hi! link markdownH1                     Bold               " #ffffff
 hi! link markdownH2                     ScooterFg          " #31aed8
-hi! link markdownH3                     LavenderFg         " #31aed8
-hi! link markdownH4                     ScooterFg          " #31aed8
-hi! link markdownH5                     LavenderFg         " #31aed8
+hi! link markdownH3                     LavenderFg         " #D6B5F1
+hi! link markdownH4                     MalibuFg           " #95baf8
+hi! link markdownH5                     SkyFg              " #a0e0fe
 hi! link markdownH6                     ScooterFg          " #31aed8
 hi! link markdownBold                   Bold               " #31aed8
 hi! link mkdBold                        Bold               " #31aed8
@@ -356,10 +393,10 @@ hi! link markdownCodeDelimiter          OlivineFg          " #94c470
 hi! link markdownCodeBlock              OlivineFg          " #94c470
 hi! link markdownCode                   OlivineFg          " #94c470
 hi! link mkdCode                        OlivineFg          " #94c470
-hi! link markdownLinkText               TanFg              " #fff2dc
+hi! link markdownLinkText               VanillaFg          " #fff2dc
 hi! link markdownLinkTextDelimiter      NoFg
-hi! link markdownLink                   TanFg              " #fff2dc
-hi! link mkdLink                        TanFg              " #fff2dc 
+hi! link markdownLink                   VanillaFg          " #fff2dc
+hi! link mkdLink                        VanillaFg          " #fff2dc 
 hi! link markdownUrl                    NoFg
 hi! link mkdUrl                         NoFg
 hi! link markdownListMarker             ScooterFg          " #31aed8
@@ -373,11 +410,11 @@ hi! link mkdBlockquote                  ScooterFg          " #b4e3f2
 " Vimwiki
 hi! link VimwikiHeader1                 Bold               " #ffffff
 hi! link VimwikiHeader2                 ScooterFg          " #31aed8 
-hi! link VimwikiHeader3                 LavenderFg         " #31aed8
+hi! link VimwikiHeader3                 LavenderFg         " #D6B5F1
 hi! link VimwikiHeader4                 ScooterFg          " #31aed8 
-hi! link VimwikiHeader5                 LavenderFg         " #31aed8
+hi! link VimwikiHeader5                 LavenderFg         " #D6B5F1
 hi! link VimwikiHeader6                 ScooterFg          " #31aed8 
-hi! link VimwikiWeblink1                TanFg              " #fff2dc
+hi! link VimwikiWeblink1                VanillaFg          " #fff2dc
 hi! link VimwikiItalic                  Italic             " #b4e3f2
 hi! link VimwikiHeaderChar              TundoraLightFg     " #4A4A4A
 hi! link VimwikiCode                    OlivineFg          " #94c470
