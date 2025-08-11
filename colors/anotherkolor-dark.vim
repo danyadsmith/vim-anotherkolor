@@ -320,7 +320,7 @@ hi! link htmlSpecialTagName             ForestGreenFg      " #47a628
 hi! link htmlTitle                      NoFg
 hi! link htmlH1                         Bold               " #ffffff
 hi! link htmlH2                         ScooterFg          " #31aed8
-hi! link htmlH3                         LavenderFg         " #D6B5F1 
+hi! link htmlH3                         LilacFg            " #bab8e7 
 hi! link htmlH4                         MalibuFg           " #95baf8
 hi! link htmlH5                         SkyFg              " #a0e0fe
 hi! link htmlLink                       NoFg
@@ -381,7 +381,7 @@ hi GitGutterChangeDelete  ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#e642a2 g
 hi! link markdownHeadingDelimiter       DarkMutedFg        " #3a3a3a
 hi! link markdownH1                     Bold               " #ffffff
 hi! link markdownH2                     ScooterFg          " #31aed8
-hi! link markdownH3                     LavenderFg         " #D6B5F1
+hi! link markdownH3                     LilacFg            " #bab8e7
 hi! link markdownH4                     MalibuFg           " #95baf8
 hi! link markdownH5                     SkyFg              " #a0e0fe
 hi! link markdownH6                     ScooterFg          " #31aed8
@@ -410,9 +410,9 @@ hi! link mkdBlockquote                  ScooterFg          " #b4e3f2
 " Vimwiki
 hi! link VimwikiHeader1                 Bold               " #ffffff
 hi! link VimwikiHeader2                 ScooterFg          " #31aed8 
-hi! link VimwikiHeader3                 LavenderFg         " #D6B5F1
-hi! link VimwikiHeader4                 ScooterFg          " #31aed8 
-hi! link VimwikiHeader5                 LavenderFg         " #D6B5F1
+hi! link VimwikiHeader3                 LilacFg            " #bab8e7
+hi! link VimwikiHeader4                 MalibuFg           " #95baf8
+hi! link VimwikiHeader5                 SkyFg              " #a0e0fe
 hi! link VimwikiHeader6                 ScooterFg          " #31aed8 
 hi! link VimwikiWeblink1                VanillaFg          " #fff2dc
 hi! link VimwikiItalic                  Italic             " #b4e3f2
