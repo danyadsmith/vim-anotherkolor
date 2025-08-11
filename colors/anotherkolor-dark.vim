@@ -141,7 +141,7 @@ hi NoFg           ctermfg=NONE guifg=NONE
 " Foreground Colors with Custom Formatting
 
 hi Strikethrough           ctermfg=NONE guifg=#f22636 gui=strikethrough term=strikethrough cterm=strikethrough
-hi Bold                    ctermfg=NONE guifg=#2b4ed5 gui=bold term=bold cterm=bold
+hi Bold                    ctermfg=NONE guifg=#ffffff gui=bold term=bold cterm=bold
 hi Italic                  ctermfg=NONE guifg=#90c9d3 gui=italic term=italic cterm=italic
 hi Underline               ctermfg=NONE guifg=#ffffff gui=underline term=underline cterm=underline
 
@@ -173,7 +173,7 @@ hi PinkSalmonBg   ctermfg=NONE guifg=#ff87af
 hi GorseBg        ctermbg=NONE guibg=#FFF654
 hi MoonGlowBg     ctermbg=NONE guibg=#FEFED0 
 hi PampasBg       ctermbg=NONE guibg=#F0EEE5
-hi VanillaBg          ctermbg=NONE guibg=#fff2dc 
+hi VanillaBg      ctermbg=NONE guibg=#fff2dc 
 hi SisalBg        ctermbg=NONE guibg=#DAD6C3
 hi ThistleBg      ctermbg=NONE guibg=#CDCAAF
 hi EcruWhiteBg    ctermbg=NONE guibg=#F5F5E5
@@ -202,10 +202,10 @@ hi NoBg           ctermbg=NONE guibg=NONE
 
 hi MutedHighlight   ctermfg=NONE  ctermbg=236   cterm=NONE guifg=NONE    guibg=#303030 gui=NONE
 hi SearchHighlight  ctermfg=236   ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#FFF654 gui=NONE
-hi DarkNormal       ctermfg=253   ctermbg=233   cterm=NONE guifg=#dadada guibg=#1a1a1a gui=NONE 
+hi DarkNormal       ctermfg=253   ctermbg=233   cterm=NONE guifg=#dddddd guibg=#1a1a1a gui=NONE 
 hi LightNormal      ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#DAD6C3 gui=NONE 
 
-hi Normal           ctermfg=253   ctermbg=233   cterm=NONE guifg=#dadada guibg=#1a1a1a gui=NONE 
+hi Normal           ctermfg=253   ctermbg=233   cterm=NONE guifg=#dddddd guibg=#1a1a1a gui=NONE 
 hi LineNr           ctermfg=White ctermbg=Black cterm=NONE guifg=#444444 guibg=#222222 gui=NONE
 hi CursorLine       ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=NONE    guibg=#1a1a1a gui=NONE
 hi CursorLineNr     ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#222222 guibg=#31aed8 gui=NONE
@@ -248,14 +248,14 @@ hi! link Float                          MoonGlowFg         " #FEFED0
 hi! link Function                       NoHighlight
 hi! link Identifier                     ScooterFg          " #31aed8
 hi! link Keyword                        ScooterFg          " #31aed8
-hi! link Label                          VanillaFg              " #fff2dc
+hi! link Label                          VanillaFg          " #fff2dc
 hi! link Number                         MoonGlowFg         " #FEFED0
 hi! link Operator                       WhiteFg            " #ffffff
 hi! link PreProc                        ScooterFg          " #31aed8
 hi! link Special                        GalleryFg          " #eeeeee
 hi! link Statement                      ScooterFg          " #31aed8
 hi! link StorageClass                   ScooterFg          " #31aed8
-hi! link String                         VanillaFg              " #fff2dc
+hi! link String                         VanillaFg          " #fff2dc
 hi! link Tag                            BlueFg             " #3333ff
 hi! link Todo                           PurpleFg           " #aa66cc
 hi! link Type                           ChartreuseFg       " #99eb00
