@@ -141,7 +141,8 @@ hi NoFg           ctermfg=NONE guifg=NONE
 " Foreground Colors with Custom Formatting
 
 hi Strikethrough           ctermfg=NONE guifg=#951521 gui=strikethrough term=strikethrough cterm=strikethrough
-hi Bold                    ctermfg=NONE guifg=#cccccc gui=bold term=bold cterm=bold
+hi BoldWhite               ctermfg=NONE guifg=#ffffff gui=bold term=bold cterm=bold
+hi Bold                    ctermfg=NONE guifg=#90c9d3 gui=bold term=bold cterm=bold
 hi Italic                  ctermfg=NONE guifg=#90c9d3 gui=italic term=italic cterm=italic
 hi Underline               ctermfg=NONE guifg=#ffffff gui=underline term=underline cterm=underline
 
@@ -318,7 +319,7 @@ hi! link htmlSpecialChar                HoneysuckleFg      " #f9fb8c
 hi! link htmlString                     MoonGlowFg         " #FEFED0
 hi! link htmlSpecialTagName             ForestGreenFg      " #47a628
 hi! link htmlTitle                      NoFg
-hi! link htmlH1                         Bold               " #ffffff
+hi! link htmlH1                         BoldWhite          " #ffffff
 hi! link htmlH2                         ScooterFg          " #31aed8
 hi! link htmlH3                         LilacFg            " #bab8e7 
 hi! link htmlH4                         PistachioFg        " #adf7ac
@@ -379,7 +380,7 @@ hi GitGutterChangeDelete  ctermfg=NONE  ctermbg=NONE  cterm=NONE guifg=#e642a2 g
 
 " Markdown
 hi! link markdownHeadingDelimiter       DarkMutedFg        " #3a3a3a
-hi! link markdownH1                     Bold               " #ffffff
+hi! link markdownH1                     BoldWhite          " #ffffff
 hi! link markdownH2                     ScooterFg          " #31aed8
 hi! link markdownH3                     LilacFg            " #bab8e7
 hi! link markdownH4                     PistachioFg        " #adf7ac
@@ -408,13 +409,14 @@ hi! link mmdTableHeadDelimiter          BlizzardBlueFg     " #b4e3f2
 hi! link mkdBlockquote                  ScooterFg          " #b4e3f2
 
 " Vimwiki
-hi! link VimwikiHeader1                 Bold               " #ffffff
+hi! link VimwikiHeader1                 BoldWhite          " #ffffff
 hi! link VimwikiHeader2                 ScooterFg          " #31aed8 
 hi! link VimwikiHeader3                 LilacFg            " #bab8e7
 hi! link VimwikiHeader4                 PistachioFg        " #adf7ac
 hi! link VimwikiHeader5                 SkyFg              " #a0e0fe
 hi! link VimwikiHeader6                 ScooterFg          " #31aed8 
 hi! link VimwikiWeblink1                VanillaFg          " #fff2dc
+hi! link VimwikiBold                    Bold               " #b4e3f2
 hi! link VimwikiItalic                  Italic             " #b4e3f2
 hi! link VimwikiHeaderChar              TundoraLightFg     " #4A4A4A
 hi! link VimwikiCode                    OlivineFg          " #94c470
